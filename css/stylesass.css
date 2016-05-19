@@ -1,6 +1,6 @@
 .wrapper {
   min-height: 100vh;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #fff;
   position: relative; }
@@ -9,24 +9,24 @@ section {
   height: 100vh;
   font-size: 40px;
   font-weight: 100;
-  background-color: #22A7F0;
+  background-color: #333333;
   display: flex;
   justify-content: center;
   align-items: center; }
   section:nth-child(1) {
     background: white; }
   section:nth-child(2) {
-    background: #F64747; }
+    background: #333333; }
   section:nth-child(3) {
-    background: #22A7F0; }
+    background: #333333; }
   section:nth-child(4) {
-    background: #F9690E; }
+    background: #333333; }
   section:nth-child(5) {
-    background: #9B59B6; }
+    background: #333333; }
   section:nth-child(6) {
-    background: #03C9A9; }
+    background: #333333; }
   section:nth-child(7) {
-    background: #ffcc00; }
+    background: #333333; }
 
 .nav__wrapper {
   position: fixed;
