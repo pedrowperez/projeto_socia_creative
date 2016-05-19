@@ -145,3 +145,10 @@ section:nth-child(7) {
   opacity: 1;
   overflow: visible;
 }
+
+#home_icon { 
+  background: url('../projeto/Home.png') no-repeat;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+ }
