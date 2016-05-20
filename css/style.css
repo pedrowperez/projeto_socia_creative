@@ -61,6 +61,7 @@ section:nth-child(7) {
   -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+          z-index: 2;
 }
 .nav {
   margin: 0 0 100px 30px;
@@ -147,7 +148,7 @@ section:nth-child(7) {
 }
 
 #home_icon { 
-  background: url('../projeto/Home.png') no-repeat;
+  background: url('../projeto/Home.png') no-repeat                                                                                                                                                      ;
   width: 30px;
   height: 30px;
   display: inline-block;

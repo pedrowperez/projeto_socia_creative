@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="UTF-8">
+		
 		<script type="text/javascript" src="js/jquery-2.2.3.min.js"> </script>
+
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"> </script>
-		<script src="js/smoothscrool.js">
-	 </script>
+
 		<title> Socia Creative </title>
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="http://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/css/demo.css">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesass.css">
+		<link rel="stylesheet" href="css/component.css">
+		<script src="js/smoothscrool.js"> </script>
+		
 		
 		
 	</head>
 
 	<body data-spy="scroll" data-target="#navbar-example">
-
-
-  <div class="wrapper" >
-
+  <div class="wrapper">
+  
     <nav class="nav__wrapper" id="navbar-example">
       <ul class="nav">
 
         <li role="presentation" class="active">
-          <a href="#section1">
+          <a href="#large-header">
             <span class="nav__counter" id="home_icon">  </span>
   
           </a>
@@ -67,9 +71,15 @@
 
       </ul>
     </nav>
-
-    <section class="section section1" id="section1" style="text-align: center">
-      logo girando,<br> nome da empresa, <br>slogan
+    <div class="large-header" id="large-header">
+   	 <canvas id="demo-canvas"> </canvas>
+   	 logo girando,<br>
+       nome da empresa, <br>
+       slogan
+   	 </div>
+    	<section class="section section1" id="section1">
+     	
+      
     </section>
 
     <section class="section section2" id="section2">
@@ -97,7 +107,13 @@
       contato form <br>
       back-end
     </section>
-
-
+</div>
   </div>
+  		
+		
 </body>
+<script src="js/TweenLite.min.js"> </script>
+		<script src="js/EasePack.min.js"> </script>
+		<script src="js/rAF.js"> </script>
+  		<script src="js/demo-1.js"> </script>
+</html>
