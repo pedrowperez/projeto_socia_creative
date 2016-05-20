@@ -24,7 +24,7 @@
         points = [];
         for(var x = 0; x < width; x = x + width/20) {
             for(var y = 0; y < height; y = y + height/20) {
-                var px = x + Math.random()*width/20;
+                var px = x + Math.random()*width/30;
                 var py = y + Math.random()*height/20;
                 var p = {x: px, originX: px, y: py, originY: py };
                 points.push(p);
@@ -39,7 +39,7 @@
                 var p2 = points[j]
                 if(!(p1 == p2)) {
                     var placed = false;
-                    for(var k = 0; k < 5; k++) {
+                    for(var k = 0; k < 5;k++) {
                         if(!placed) {
                             if(closest[k] == undefined) {
                                 closest[k] = p2;
@@ -123,7 +123,7 @@
                 } else if(Math.abs(getDistance(target, points[i])) < 20000) {
                     points[i].active = 0.1;
                     points[i].circle.active = 0.3;
-                } else if(Math.abs(getDistance(target, points[i])) < 40000) {
+                } else if(Math.abs(getDistance(target, points[i])) < 400000) {
                     points[i].active = 0.02;
                     points[i].circle.active = 0.1;
                 } else {
@@ -153,7 +153,7 @@
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p.closest[i].x, p.closest[i].y);
-            ctx.strokeStyle = 'rgba(156,217,249,'+ p.active+')';
+            ctx.strokeStyle = 'rgba(0,255,255,'+ p.active+')';
             ctx.stroke();
         }
     }
@@ -171,8 +171,8 @@
         this.draw = function() {
             if(!_this.active) return;
             ctx.beginPath();
-            ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 0, 2 * Math.PI, false);
-            ctx.fillStyle = 'rgba(156,217,249,'+ _this.active+')';
+            ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 01000, 2 * Math.PI, false);
+            ctx.fillStyle = 'rgba(255,255,255,'+ _this.active+')';
             ctx.fill();
         };
     }

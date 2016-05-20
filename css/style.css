@@ -182,3 +182,7 @@ section:nth-child(7) {
      background: url('../img/icon/contato.png') no-repeat;
      background-size: 100%;
 }
+
+h3 {
+  font-size: 1.9em;
+}
