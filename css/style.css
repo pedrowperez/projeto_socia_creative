@@ -127,6 +127,7 @@ section:nth-child(7) {
 .nav li.active {
   pointer-events: none;
   padding-left: 1em;
+
 }
 .nav li.active:after {
   width: 35px;
@@ -134,7 +135,8 @@ section:nth-child(7) {
   top: 35px;
 }
 .nav li.active .nav__counter {
-  font-size: 48px;
+  width: 60px;
+  height: 80px;
 }
 .nav li.active .nav__title {
   height: 40px;
@@ -147,43 +149,36 @@ section:nth-child(7) {
   overflow: visible;
 }
 
+.icon_nav {
+   width: 30px;
+    height: 40px;
+    display: inline-block;
+    
+}
+
 #home_icon { 
-<<<<<<< HEAD
-  background: url('../projeto/Home.png') no-repeat                                                                                                                                                      ;
-=======
-  background: url('../projeto/home.svg') no-repeat;
->>>>>>> origin/master
-  width: 30px;
-  height: 30px;
-  display: inline-block;
+     background: url('../img/icon/home.png') no-repeat;
+     background-size: 100%; 
  }
 #servicos_icon {
- background: url('../projeto/servicos.svg') no-repeat;
-  width: 30px;
-  height: 30px;
-  display: inline-block;
+ background: url('../img/icon/servicos.png') no-repeat;
+ background-size: 100%;
  }
 #sobre_icon {
- background: url('../projeto/sobre.svg') no-repeat;
-  width: 30px;
-  height: 30px;
-  display: inline-block;
+     background: url('../img/icon/sobre.png') no-repeat;
+     background-size: 100%;
 }
 #portfolio_icon {
- background: url('../projeto/portfolio.svg') no-repeat;
-  width: 30px;
-  height: 30px;
-  display: inline-block;
+    background: url('../img/icon/portfolio.png') no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 #quemsomos_icon {
- background: url('../projeto/quemsomos.svg') no-repeat;
-  width: 30px;
-  height: 30px;
-  display: inline-block;
+     background: url('../img/icon/quemsomos.png') no-repeat;
+     background-size: 100%;
+ 
 }
 #contato_icon {
- background: url('../projeto/contato.svg') no-repeat;
-  width: 30px;
-  height: 30px;
-  display: inline-block;
+     background: url('../img/icon/contato.png') no-repeat;
+     background-size: 100%;
 }
