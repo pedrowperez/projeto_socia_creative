@@ -205,6 +205,57 @@ section:nth-child(7) {
   font-weight: 200;
 }
 
+.title_location {
+  font-weight: 200;
+  margin-bottom: -10px;
+}
+
+.title_location:before {
+display: inline-block;
+width: 30px;
+height: 50px;
+background-image: url('../img/contato/location.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+content: "";
+position: relative;
+left: -75px;
+}
+
+
+.title_email {
+  font-weight: 200;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.title_email:before {
+display: inline-block;
+width: 40px;
+height: 30px;
+background-image: url('../img/contato/email.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+content: "";
+position: relative;
+top: 7px;
+}
+
+.title_location .bold {
+  font-weight: 700;
+}
+
+.title_email .bold {
+  font-weight: 700;
+}
+
+.title_telefone .thin {
+  font-weight: 200;
+}
+
+.title_telefone:before {display: inline-block;width: 30px;height: 50px;background-image: url('../img/contato/telefone.png');background-position: center;background-repeat: no-repeat;background-size: 100%;content: "";position: relative;left: -65px;top: 10px;}
+
 .formulario {
   width: 50%;
   height: 100%;
@@ -214,8 +265,9 @@ section:nth-child(7) {
   width: 50%;
   height: 100%;
   float: right;
-  background-color: yellow;
+  padding-top: 80px;
 }
+
 .formcontato {
   margin-top: 10%;
 }
@@ -226,4 +278,45 @@ section:nth-child(7) {
     -webkit-border-image: -webkit-linear-gradient(left, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
     border-image: linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%), linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
     border-image-slice: 1;
+}
+
+.btn:after {
+  background-image: url('../img/enviar.png');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.divisoriainfo {
+  
+width: 60%;
+}
+
+.mediasocial {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  margin-left: 15px;
+  background: red;
+}
+
+.facebook {
+  background-image: url('../img/contato/facebook.png');
+  background-size: 100%;
+}
+.skype {
+  background-image: url('../img/contato/skype.png');
+  background-size: 100%;
+}
+.linkedin {
+  background-image: url('../img/contato/linkedin.png');
+  background-size: 100%;
+}
+
+.copyright {
+  font-weight: 200;
 }
