@@ -182,7 +182,48 @@ section:nth-child(7) {
      background: url('../img/icon/contato.png') no-repeat;
      background-size: 100%;
 }
+.contato {
+  width: 80%;
+  height: 60%;
 
-h3 {
-  font-size: 1.9em;
+
+}
+.titlecontact {
+  font-weight: 200;
+}
+.descriptioncontact {
+ font-weight: 700;
+ position: relative;
+ top: -3%;
+}
+
+.titlecontact .bold {
+  font-weight: 700;
+}
+
+.descriptioncontact .thin {
+  font-weight: 200;
+}
+
+.formulario {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.informacoes_formulario {
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-color: yellow;
+}
+.formcontato {
+  margin-top: 10%;
+}
+
+.borderform {
+    border: 5px solid transparent;
+    -moz-border-image: -moz-linear-gradient(left, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
+    border-image: linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%), linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
+    border-image-slice: 1;
 }
