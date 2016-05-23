@@ -1,0 +1,62 @@
+.book{width:800px;height: 800px;position:relative;perspective:1500px;display: inline-block;}
+.page{position:absolute;top:0;width:50%;height:100%;color:#fff;font-size:80px;transition:all .8s ease;transform-style: preserve-3d;transform:rotateY(0deg);backface-visibility:hidden;z-index:1;}
+.book .page.left{left:0;transform-origin:right;}
+.book .page.right{right:0;transform-origin:left;}
+.book .page.current{z-index:2;}
+.current.right.page.turn{transform:rotateY(-180deg);}
+.current.left.page.turn{transform:rotateY(180deg);}
+
+.book .next.left.page{transform:rotateY(180deg);}
+.next.left.page.turn{transform:rotateY(0deg);}
+.book .next.right.page{}
+
+.book .prev.right.page{transform:rotateY(-180deg);}
+.prev.right.page.turn{transform:rotateY(0deg);}
+.book .prev.left.page{}
+
+.book .page.red{  width: 400px;
+    height: 800px;
+    background-color: gold;
+    border-bottom-left-radius: 433px;
+    border-top-left-radius: 433px;
+    border-bottom: 0;}
+.book .page.blue{width: 400px;
+    height: 800px;
+    background-color: blue;
+    border-bottom-right-radius: 433px;
+    border-top-right-radius: 433px;
+    border-bottom: 0;}
+.book .page.green{width: 400px;
+    height: 800px;
+    background-color: green;
+    border-bottom-left-radius: 433px;
+    border-top-left-radius: 433px;
+    border-bottom: 0;}
+.book .page.orange{width: 400px;
+    height: 800px;
+    background-color: blue;
+    border-bottom-right-radius: 433px;
+    border-top-right-radius: 433px;
+    border-bottom: 0;}
+.book .page.maroon{width: 400px;
+    height: 800px;
+    background-color: gold;
+    border-bottom-left-radius: 433px;
+    border-top-left-radius: 433px;
+    border-bottom: 0;}
+.book .page.pink{width: 400px;
+    height: 800px;
+    background-color: blue;
+    border-bottom-right-radius: 433px;
+    border-top-right-radius: 433px;
+    border-bottom: 0;}
+.book .page.purple{width: 400px;
+    height: 800px;
+    background-color: gold;
+    border-bottom-left-radius: 433px;
+    border-top-left-radius: 433px;
+    border-bottom: 0;}
+
+
+.btns{text-align:center;width:600px;position: relative;}
+.btns button{font-size:30px;padding:10px 30px;}
