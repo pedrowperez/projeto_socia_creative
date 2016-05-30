@@ -185,15 +185,16 @@ section:nth-child(7) {
 
 
 .sobre{width: 60%;height: 70%;}
+.sobre h2{position: absolute;font-size: 100%;top: 30%;display: initial;margin: 0% 0% 0% -10%;}
 .informacoes{position: absolute;width: 57%;height: 3%;}
 .objetivos{position: absolute;width: 57%;height: 3%;top: 34%;}
 .frase_impacto{position: absolute;width: 57%;height: 3%;top: 37%;}
 #btn_inf{width: 25%;height: 100%;border-radius: 50%;float: left;}
 #btn_obj{width: 25%;height: 100%;border-radius: 50%;float: right;}
 #btn_fi{width: 26%;height: 100%;border-radius: 50%;float: left;}
-#info_info{position: absolute;display: none;width: 57%;height: 9%;background: rebeccapurple;}
-#info_obj{position: absolute;display: none;width: 57%;height: 9%;background: red;}
-#info_fimp{position: absolute;display: none;width: 57%;height: 9%;background: blue;}
+#info_info{position: absolute;display: none;width: 57%;height: 9%;background: orange}
+#info_obj{position: absolute;display: none;width: 57%;height: 9%;background: green}
+#info_fimp{position: absolute;display: none;width: 57%;height: 9%;background: blue}
 
 
 .contato {
