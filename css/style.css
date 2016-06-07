@@ -233,6 +233,55 @@ section:nth-child(7) {
 #info_obj{position: absolute;display: none;width: 45%;height: 9.5%;margin: 0% 5%;border: 6px solid #2176b8;}
 #info_fimp{position: absolute;display: none;width: 45%;height: 9.63%;margin: 0% 7%;border: 6px solid #38ce8e;}
 
+.servicos{
+    width: 75%;
+    height: 70%;
+}
+.branding{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.web{
+    width: 25%;
+    height: 100%;
+    float: left;
+  }
+.design_grafico{
+    width: 25%;
+    height: 100%;
+    float: left;
+  }
+.m_digital{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+#btn_brad{
+    position: relative;
+    margin-top: 110%;
+    width: 50%;
+    height: 20%;
+}
+#btn_web{
+    position: relative;
+    margin-top: 110%;
+    width: 50%;
+    height: 20%;
+}
+#btn_dgraf{
+    position: relative;
+    margin-top: 110%;
+    width: 50%;
+    height: 20%;
+}
+#btn_mdig{
+    position: relative;
+    margin-top: 110%;
+    width: 50%;
+    height: 20%;
+}
 
 .contato {
   width: 80%;
