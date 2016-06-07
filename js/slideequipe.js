@@ -40,12 +40,12 @@ function turn(direction) {
     
     if (new_left_data) {
         $new_left.addClass(new_left_data.color);
-        $new_left.html(new_left_data.id);
+        
     }
     
     if (new_right_data) {
         $new_right.addClass(new_right_data.color); 
-        $new_right.html(new_right_data.id);
+        
     }  
     
     $('.book').append($new_left);

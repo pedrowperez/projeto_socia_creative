@@ -185,16 +185,53 @@ section:nth-child(7) {
 
 
 .sobre{width: 60%;height: 70%;}
-.sobre h2{position: absolute;font-size: 100%;top: 30%;display: initial;margin: 0% 0% 0% -10%;}
+.sobre h2 {font-size: 1.2em;display: initial;position: relative;top: 50%;left: -12%;}
+
+
 .informacoes{position: absolute;width: 57%;height: 3%;}
-.objetivos{position: absolute;width: 57%;height: 3%;top: 34%;}
-.frase_impacto{position: absolute;width: 57%;height: 3%;top: 37%;}
-#btn_inf{width: 25%;height: 100%;border-radius: 50%;float: left;}
-#btn_obj{width: 25%;height: 100%;border-radius: 50%;float: right;}
-#btn_fi{width: 26%;height: 100%;border-radius: 50%;float: left;}
-#info_info{position: absolute;display: none;width: 57%;height: 9%;background: orange}
-#info_obj{position: absolute;display: none;width: 57%;height: 9%;background: green}
-#info_fimp{position: absolute;display: none;width: 57%;height: 9%;background: blue}
+.objetivos{position: absolute;width: 57%;height: 3%;top: 34%;text-align: right;}
+.filosofia
+{position: absolute;width: 57%;height: 3%;top: 37%;}
+#btn_inf  {
+    width: 25%;
+    height: 125%;
+    background-color: #333333;
+    background-image: url('../img/icon/informacoes.png');
+    background-position: 0.4em 0.3em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    float: left;
+    border: 6px solid #ff7a46;
+    ]: #333333
+}
+#btn_obj{
+    width: 25%;
+    height: 125%;
+    background-color: #333333;
+    background-image: url('../img/icon/objetivos.png');
+    background-position: center;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    float: right;
+    border: 5px solid #2176b8;
+  }
+#btn_fi{
+    width: 25%;
+    height: 125%;
+    background-color: #333333;
+    background-image: url('../img/icon/filosofia.png');
+    background-position: center;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    float: left;
+    border: 6px solid #38ce8e;
+  }
+#info_info{position: absolute;display: none;width: 47%;height: 9.5%;margin: 0% 7%;border: 6px solid #ff7a46;}
+#info_obj{position: absolute;display: none;width: 45%;height: 9.5%;margin: 0% 5%;border: 6px solid #2176b8;}
+#info_fimp{position: absolute;display: none;width: 45%;height: 9.63%;margin: 0% 7%;border: 6px solid #38ce8e;}
 
 
 .contato {
