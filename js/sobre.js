@@ -8,14 +8,14 @@ $(document).ready(function()
 				$("#btn_obj").animate({"margin-right": '-30%',"opacity": '0'}, 400);
 				$("#btn_fi").animate({"margin-left": '-30%', "opacity": '0'}, 400)
 				$(".sobre h2").animate({"opacity": '0'}, 100);
-				$("#info_info").slideDown(600)
+				$("#info_info").slideDown(600);
 				move = true
 			}
 			else{
 				$("#btn_obj").animate({"margin-right": '0px', "opacity": '1'}, 400);
 				$("#btn_fi").animate({"margin-left": '0px', "opacity": '1'}, 400);
 				$(".sobre h2").animate({"opacity": '1'}, 300);
-				$("#info_info").slideUp(200)
+				$("#info_info").slideUp(200);
 				move = false
 			}
 	});
