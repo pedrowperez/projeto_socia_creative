@@ -293,7 +293,7 @@ border-image-slice: 1;
     height: 100%;
     float: left;
   }
-.design_grafico{
+.d_grafico{
     width: 25%;
     height: 100%;
     float: left;
@@ -304,25 +304,25 @@ border-image-slice: 1;
     float: left;
 }
 
-#btn_brad{
+.btn_brad{
     position: relative;
     margin-top: 110%;
     width: 50%;
     height: 20%;
 }
-#btn_web{
+.btn_web{
     position: relative;
     margin-top: 110%;
     width: 50%;
     height: 20%;
 }
-#btn_dgraf{
+.btn_dgraf{
     position: relative;
     margin-top: 110%;
     width: 50%;
     height: 20%;
 }
-#btn_mdig{
+.btn_mdig{
     position: relative;
     margin-top: 110%;
     width: 50%;
