@@ -472,3 +472,16 @@ width: 60%;
   height: 100%;
   width: 87.8%;
 }
+
+.prev {
+  width: 50px;
+  height: 60px;
+  display: inline-block;
+  cursor: pointer;
+}
+.next {
+   width: 50px;
+   height: 60px;
+   display: inline-block;
+   cursor: pointer;
+}

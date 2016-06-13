@@ -14,49 +14,97 @@
 .prev.right.page.turn{transform:rotateY(0deg);}
 .book .prev.left.page{}
 
-.book .page.red{  width: 400px;
+.book .page.red{
+    width: 400px;
     height: 800px;
-    background-color: gold;
+    background-color: #333333;
+    background-image: url('../img/slide/slide-1.svg');
     border-bottom-left-radius: 433px;
     border-top-left-radius: 433px;
-    border-bottom: 0;}
-.book .page.blue{width: 400px;
+    border-bottom: 0;
+    background-size: 155%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+.book .page.blue{
+    width: 400px;
     height: 800px;
-    background-color: blue;
+    background-color: #333333;
+    background-image: url('../img/slide/slide-2.svg');
     border-bottom-right-radius: 433px;
     border-top-right-radius: 433px;
-    border-bottom: 0;}
-.book .page.green{width: 400px;
+    border-bottom: 0;
+    background-position: -1.3em center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    }
+.book .page.green{
+    width: 400px;
     height: 800px;
-    background-color: green;
+    background-color: #333333;
     border-bottom-left-radius: 433px;
     border-top-left-radius: 433px;
-    border-bottom: 0;}
-.book .page.orange{width: 400px;
+    border-bottom: 0;
+    }
+.book .page.orange{
+    width: 400px;
     height: 800px;
-    background-color: blue;
+    background-color: white;
     border-bottom-right-radius: 433px;
     border-top-right-radius: 433px;
-    border-bottom: 0;}
-.book .page.maroon{width: 400px;
+    border-bottom: 0;
+    }
+.book .page.maroon{
+    width: 400px;
     height: 800px;
-    background-color: gold;
+    background-color: white;
     border-bottom-left-radius: 433px;
     border-top-left-radius: 433px;
-    border-bottom: 0;}
-.book .page.pink{width: 400px;
+    border-bottom: 0;
+    }
+.book .page.pink{
+    width: 400px;
     height: 800px;
-    background-color: blue;
+    background-color: #333333;
     border-bottom-right-radius: 433px;
     border-top-right-radius: 433px;
-    border-bottom: 0;}
-.book .page.purple{width: 400px;
+    border-bottom: 0;
+    }
+.book .page.purple{
+    width: 400px;
     height: 800px;
-    background-color: gold;
+    background-color: #333333;
     border-bottom-left-radius: 433px;
     border-top-left-radius: 433px;
-    border-bottom: 0;}
+    border-bottom: 0;
+    }
+
+    .book .page.brown{
+width: 400px;
+    height: 800px;
+    background-color: white;
+    border-bottom-right-radius: 433px;
+    border-top-right-radius: 433px;
+    border-bottom: 0;
+    }
+
+        .book .page.nine{
+    width: 400px;
+    height: 800px;
+    background-color: white;
+    border-bottom-left-radius: 433px;
+    border-top-left-radius: 433px;
+    border-bottom: 0;
+    }
+        .book .page.black{
+       width: 400px;
+    height: 800px;
+    background-color: #333333;
+    border-bottom-right-radius: 433px;
+    border-top-right-radius: 433px;
+    border-bottom: 0;
+    }
 
 
-.btns{text-align:center;width:600px;position: relative;}
-.btns button{font-size:30px;padding:10px 30px;}
+.btns{text-align:center;position: absolute;margin: 90% 41%;z-index: 3;}
+.btns button{font-size:30px;padding:10px 30px;border-radius: 50%;border: 3px solid black;}

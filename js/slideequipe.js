@@ -6,7 +6,9 @@ var pages = [
     { id: '5', color: 'maroon' },
     { id: '6', color: 'pink' },
     { id: '7', color: 'purple' },
-    { id: '8', color: 'blue' },
+    { id: '8', color: 'brown' },
+    { id: '9', color: 'nine'},
+    { id: '10', color: 'black'}
 ];
 
 var idx = 0,

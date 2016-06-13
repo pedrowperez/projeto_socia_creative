@@ -28,14 +28,14 @@ $(document).ready(function()
 				$("#btn_inf").animate({"margin-left": '-30%', "opacity": '0'}, 400);
 				$("#btn_fi").animate({"margin-left": '-30%', "opacity": '0'}, 400);
 				$(".sobre h2").animate({"opacity": '0'}, 100);
-				$("#info_obj").slideDown(600);
+				$("#info_obj").show("slide", { direction: "left" }, 1000);
 				move = true
 			}
 			else{
 				$("#btn_inf").animate({"margin-left": '0px',"opacity": '1'}, 400);
 				$("#btn_fi").animate({"margin-left": '0px', "opacity": '1'}, 400);
 				$(".sobre h2").animate({"opacity": '1'}, 300);
-				$("#info_obj").slideUp(200);
+				$("#info_obj").hide('slide', { direction: 'right' });
 				move = false
 			}
 	});	
