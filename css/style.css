@@ -293,7 +293,7 @@ border-image-slice: 1;
     height: 100%;
     float: left;
   }
-.design_grafico{
+.d_grafico{
     width: 25%;
     height: 100%;
     float: left;
@@ -304,25 +304,186 @@ border-image-slice: 1;
     float: left;
 }
 
-#btn_brad{
+.btn_brad{
     position: relative;
     margin-top: 110%;
     width: 50%;
     height: 20%;
 }
-#btn_web{
+
+.b1{
+    position: absolute;
+    width: 10%;
+    height: 2%;
+    background: aqua;
+    left: 36.1%;
+    top: 36.7%;
+    opacity: 0;
+}
+
+.b1:hover{
+    background: red;
+}
+
+.b2{
+    position: absolute;
+    width: 10%;
+    height: 2%;
+    background: aqua;
+    left: 53.8%;
+    top: 36.7%;
+    opacity: 0;
+}
+.b2:hover{
+    background: red;
+}
+
+.b3{
+    position: absolute;
+    width: 10%;
+    height: 2%;
+    background: aqua;
+    left: 71.4%;
+    top: 36.7%;
+    opacity: 0;
+}
+.b3:hover{
+    background: red;
+}
+
+.w1{
+    position: absolute;
+    width: 10%;
+    height: 2%;
+    background: aqua;
+    left: 18.5%;
+    top: 36.7%;
+    opacity: 0;
+}
+
+.w1:hover{
+    background: red;
+}
+
+.w2{
+    position: absolute;
+    width: 10%;
+    height: 2%;
+    background: aqua;
+    left: 53.8%;
+    top: 36.7%;
+    opacity: 0;
+}
+.w2:hover{
+    background: red;
+}
+
+.w3{
+    position: absolute;
+    width: 10%;
+    height: 2%;
+    background: aqua;
+    left: 71.4%;
+    top: 36.7%;
+    opacity: 0;
+}
+.w3:hover{
+    background: red;
+}
+
+.d1{
+    position: absolute;
+    width: 10%;
+    height: 2%;
+    background: aqua;
+    left: 18.5%;
+    top: 36.7%;
+    opacity: 0;
+}
+
+.d1:hover{
+    background: red;
+}
+
+.d2{
+    position: absolute;
+    width: 10%;
+    height: 2%;
+    background: aqua;
+    left: 36%;
+    top: 36.7%;
+    opacity: 0;
+}
+.d2:hover{
+    background: red;
+}
+
+.d3{
+    position: absolute;
+    width: 10%;
+    height: 2%;
+    background: aqua;
+    left: 71.4%;
+    top: 36.7%;
+    opacity: 0;
+}
+.d3:hover{
+    background: red;
+}
+
+.m1{
+    position: absolute;
+    width: 10%;
+    height: 2%;
+    background: aqua;
+    left: 18.5%;
+    top: 36.7%;
+    opacity: 0;
+}
+
+.m1:hover{
+    background: red;
+}
+
+.m2{
+    position: absolute;
+    width: 10%;
+    height: 2%;
+    background: aqua;
+    left: 36%;
+    top: 36.7%;
+    opacity: 0;
+}
+.m2:hover{
+    background: red;
+}
+
+.m3{
+    position: absolute;
+    width: 10%;
+    height: 2%;
+    background: aqua;
+    left: 53.8%;
+    top: 36.7%;
+    opacity: 0;
+}
+.m3:hover{
+    background: red;
+}
+
+.btn_web{
     position: relative;
     margin-top: 110%;
     width: 50%;
     height: 20%;
 }
-#btn_dgraf{
+.btn_dgraf{
     position: relative;
     margin-top: 110%;
     width: 50%;
     height: 20%;
 }
-#btn_mdig{
+.btn_mdig{
     position: relative;
     margin-top: 110%;
     width: 50%;
