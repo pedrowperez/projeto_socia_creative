@@ -1,5 +1,5 @@
-.book{width:800px;height: 800px;position:relative;perspective:1500px;display: inline-block;}
-.page{position:absolute;top:0;width:50%;height:100%;color:#fff;font-size:80px;transition:all .8s ease;transform-style: preserve-3d;transform:rotateY(0deg);backface-visibility:hidden;z-index:1;}
+.book{width: 58%;height: 100%;position:relative;perspective: 1500px;display: inline-block;background-image: url('../img/slide/background-slide.png');background-repeat: no-repeat;background-position: center;background-size: 90%;}
+.page{position:absolute;top: 0px;width:50%;height:100%;color:#fff;font-size:80px;transition:all .8s ease;transform-style: preserve-3d;transform:rotateY(0deg);backface-visibility:hidden;z-index:1;}
 .book .page.left{left:0;transform-origin:right;}
 .book .page.right{right:0;transform-origin:left;}
 .book .page.current{z-index:2;}
@@ -17,12 +17,12 @@
 .book .page.red{
     width: 400px;
     height: 800px;
-    background-color: #333333;
-    background-image: url('../img/slide/slide-1.svg');
+    background-color: white;
+    background-image: url('../img/logo.png');
     border-bottom-left-radius: 433px;
     border-top-left-radius: 433px;
     border-bottom: 0;
-    background-size: 155%;
+    background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
     }
@@ -30,13 +30,13 @@
     width: 400px;
     height: 800px;
     background-color: #333333;
-    background-image: url('../img/slide/slide-2.svg');
+    background-image: url('../img/slide/slide-2.png');
     border-bottom-right-radius: 433px;
     border-top-right-radius: 433px;
     border-bottom: 0;
-    background-position: -1.3em center;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 140%;
+    background-size: 80%;
     }
 .book .page.green{
     width: 400px;
@@ -45,6 +45,10 @@
     border-bottom-left-radius: 433px;
     border-top-left-radius: 433px;
     border-bottom: 0;
+     background-image: url('../img/slide/slide-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
     }
 .book .page.orange{
     width: 400px;
@@ -53,6 +57,10 @@
     border-bottom-right-radius: 433px;
     border-top-right-radius: 433px;
     border-bottom: 0;
+     background-image: url('../img/logo.png');
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
     }
 .book .page.maroon{
     width: 400px;
@@ -61,6 +69,11 @@
     border-bottom-left-radius: 433px;
     border-top-left-radius: 433px;
     border-bottom: 0;
+    background-image: url('../img/logo.png');
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+
     }
 .book .page.pink{
     width: 400px;
@@ -69,6 +82,10 @@
     border-bottom-right-radius: 433px;
     border-top-right-radius: 433px;
     border-bottom: 0;
+            background-image: url('../img/slide/slide-4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
     }
 .book .page.purple{
     width: 400px;
@@ -77,6 +94,10 @@
     border-bottom-left-radius: 433px;
     border-top-left-radius: 433px;
     border-bottom: 0;
+            background-image: url('../img/slide/slide-5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
     }
 
     .book .page.brown{
@@ -86,6 +107,10 @@ width: 400px;
     border-bottom-right-radius: 433px;
     border-top-right-radius: 433px;
     border-bottom: 0;
+    background-image: url('../img/logo.png');
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
     }
 
         .book .page.nine{
@@ -95,6 +120,10 @@ width: 400px;
     border-bottom-left-radius: 433px;
     border-top-left-radius: 433px;
     border-bottom: 0;
+    background-image: url('../img/logo.png');
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
     }
         .book .page.black{
        width: 400px;
@@ -103,8 +132,12 @@ width: 400px;
     border-bottom-right-radius: 433px;
     border-top-right-radius: 433px;
     border-bottom: 0;
+            background-image: url('../img/slide/slide-6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
     }
 
 
-.btns{text-align:center;position: absolute;margin: 90% 41%;z-index: 3;}
-.btns button{font-size:30px;padding:10px 30px;border-radius: 50%;border: 3px solid black;}
+.btns{text-align:center;position: absolute;margin: 83% 45%;z-index: 3;}
+.btns button{font-size:30px;padding:10px 30px;border-radius: 50%;border: transparent;}
