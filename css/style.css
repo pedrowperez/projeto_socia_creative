@@ -193,10 +193,37 @@ section:nth-child(7) {
 .sobre h2 {font-size: 0.9em;display: initial;position: relative;top: 65%;left: -5%;}
 
 
-.informacoes{position: absolute;width: 57%;height: 3%;z-index: 2;border-bottom: 5px solid #ff7a46;}
-.objetivos{position: absolute;width: 57%;height: 3%;top: 23.5%;text-align: right;border-bottom: 5px solid #2176B8;}
-.filosofia
-{position: absolute;width: 57%;height: 3%;top: 27%;border-bottom: 5px solid #38CE8E;}
+.informacoes {
+  position: absolute;
+  width: 57%;
+  height: 3%;
+  border-bottom: 5px solid transparent;
+  -moz-border-image: -moz-linear-gradient(right, #333333 0%, #ff7a46 30%);
+    -webkit-border-image: -webkit-linear-gradient(right, #333333 0%, #ff7a46 30%);
+    border-image: linear-gradient(to right, #333333 0%, #ff7a46 30%);
+    border-image-slice: 1; }
+.objetivos {
+  position: absolute;
+  width: 57%;
+  height: 3%;
+  top: 23.5%;
+  text-align: right;
+  border-bottom: 5px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #333333 0%, #2176B8 30%);
+    -webkit-border-image: -webkit-linear-gradient(left, #333333 0%, #2176B8 30%);
+    border-image: linear-gradient(to left, #333333 0%, #2176B8 30%);
+    border-image-slice: 1;}
+.filosofia {
+  position: absolute;
+  width: 57%;
+  height: 3%;
+  top: 27%;
+  border-bottom: 5px solid transparent;
+  -moz-border-image: -moz-linear-gradient(right, #333333 0%, #38CE8E 30%);
+    -webkit-border-image: -webkit-linear-gradient(right, #333333 0%, #38CE8E 30%);
+    border-image: linear-gradient(to right, #333333 0%, #38CE8E 30%);
+    border-image-slice: 1;
+  }
 #btn_inf  {
     width: 21%;
     height: 125%;

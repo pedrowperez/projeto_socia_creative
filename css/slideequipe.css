@@ -1,4 +1,4 @@
-.book{width: 58%;height: 100%;position:relative;perspective: 1500px;display: inline-block;background-image: url('../img/slide/background-slide.png');background-repeat: no-repeat;background-position: center;background-size: 90%;}
+.book{width: 58%;height: 100%;position:relative;perspective: 1500px;display: inline-block;background-image: url('../img/slide/background-slide.png');background-repeat: no-repeat;background-position: center -0.2em;background-size: 103%;}
 .page{position:absolute;top: 0px;width:50%;height:100%;color:#fff;font-size:80px;transition:all .8s ease;transform-style: preserve-3d;transform:rotateY(0deg);backface-visibility:hidden;z-index:1;}
 .book .page.left{left:0;transform-origin:right;}
 .book .page.right{right:0;transform-origin:left;}
