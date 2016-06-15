@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.code {
+  width: 100%;
+  background: #f46c69;
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+}
+
+.svg {
+  position: absolute;
+  bottom: -10px;
+  width: 700px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#macbook {
+  //display: block;
+  animation: macbook .7s linear;
+  transition: all .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+#coder {
+  animation: coder .8s linear;
+  transform-origin: center center;
+}
+
+#coffee {
+  animation: coffee 1s linear;
+  transform-origin: 83% 80%;
+}
+
+#smoke {
+  animation: smoke 3s infinite;
+}
+
+@keyframes macbook {
+  0%{transform: translateY(300px)}
+  50%{transform: translateY(10px)}
+  100% {transform: translateY(0px)}
+}
+
+@keyframes coder {
+  0%{transform: scale(0); opacity: 0}
+  50%{transform: scale(1.5); opacity: 1}
+  100% {transform: scale(1); opacity:1}
+}
+
+@keyframes coffee {
+  0%{transform: scale(0); opacity: 0}
+  50%{transform: scale(1.5); opacity: 1}
+  100% {transform: scale(1); opacity:1}
+}
+
+@keyframes smoke {
+  0%{transform: translateY(0px); opacity: 1;}
+  50%{ opacity: .5;}
+  100%{transform: translateY(-15px); opacity: 0;}
+}

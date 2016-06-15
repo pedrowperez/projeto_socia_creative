@@ -248,12 +248,11 @@ section:nth-child(7) {
   border-image-slice: 1;
   }
 #info_obj{position: absolute;display: none;width: 46.5%;height: 11.8%;margin: 0% 5%;background-color: #333333;border: 9px solid #2176B8;}
-#info_fimp{position: absolute;display: none;width: 45%;height: 10.9%;margin: 0% 5.5%;border: 9px solid #38CE8E;border-image-slice: 1;}
+#info_fimp{position: absolute;display: none;width: 45%;height: 10.9%;margin: 0% 5.5%;border: 9px solid green;border-image-slice: 1;}
 
 .servicos{
     width: 75%;
     height: 70%;
-    z-index: 2;
 }
 .branding{
     width: 25%;

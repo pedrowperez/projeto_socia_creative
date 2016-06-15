@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+.code {
+  z-index: 1;
+  width: 70%;
+  overflow: hidden;
+  position: absolute;
+  height: 10%;
+  margin: 21.7% 0% 0% -70%;
+  }
+
+.svg {
+  position: relative;
+  bottom: -60px;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  }
+
+#macbook {
+  animation: macbook .7s linear;
+  transition: all 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+
+#coder {
+  animation: coder .8s linear;
+  transform-origin: center center; }
+
+#coffee {
+  animation: coffee 1s linear;
+  transform-origin: 83% 80%; }
+
+#smoke {
+  animation: smoke 3s infinite; }
+
+@keyframes macbook {
+  0% {
+    transform: translateY(300px); }
+  50% {
+    transform: translateY(10px); }
+  100% {
+    transform: translateY(0px); } }
+@keyframes coder {
+  0% {
+    transform: scale(0);
+    opacity: 0; }
+  50% {
+    transform: scale(1.5);
+    opacity: 1; }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+@keyframes coffee {
+  0% {
+    transform: scale(0);
+    opacity: 0; }
+  50% {
+    transform: scale(1.5);
+    opacity: 1; }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+@keyframes smoke {
+  0% {
+    transform: translateY(0px);
+    opacity: 1; }
+  50% {
+    opacity: .5; }
+  100% {
+    transform: translateY(-15px);
+    opacity: 0; } }
+
+/*# sourceMappingURL=computer.css.map */
