@@ -276,7 +276,26 @@ section:nth-child(7) {
   border: 9px solid #ff7a46;
   border-image-slice: 1;
   }
-#info_obj{position: absolute;display: none;width: 46.5%;height: 11.8%;margin: 0% 5%;background-color: #333333;border: 9px solid #2176B8;}
+#info_obj{
+  position: absolute;
+  display: none;
+  width: 46.5%;
+  height: 11.8%;
+  margin: 0% 5%;
+  border: 9px solid #2176B8;
+  background: url('../img/processo-operacional.svg') 100% center no-repeat;
+  transition-property: all;
+  }
+
+.title_obj {
+  font-size: 1em;
+  font-weight: 200;
+  position: absolute;
+  margin: 1% 10%;
+}
+.title_obj .bold {
+  font-weight: 700;
+}
 #info_fimp{position: absolute;display: none;width: 45%;height: 10.9%;margin: 0% 5.5%;border: 9px solid #38CE8E;border-image-slice: 1;}
 
 .servicos{

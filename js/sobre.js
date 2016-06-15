@@ -7,7 +7,7 @@ $(document).ready(function()
 			{	
 				$("#btn_obj").animate({"margin-right": '-10%',"opacity": '0'}, 400);
 				$("#btn_fi").animate({"margin-left": '-10%', "opacity": '0'}, 400)
-				$(".sobre h2").animate({"opacity": '0'}, 100);
+				$(".sobre h2").animate({"opacity": '0'}, 500);
 				$("#info_info").slideDown(600);
 				$(".informacoes").css("border-bottom", "inherit");
 				$(".objetivos").css("border-bottom", "inherit");
@@ -17,7 +17,7 @@ $(document).ready(function()
 			else{
 				$("#btn_obj").animate({"margin-right": '0px', "opacity": '1'}, 400);
 				$("#btn_fi").animate({"margin-left": '0px', "opacity": '1'}, 400);
-				$(".sobre h2").animate({"opacity": '1'}, 300);
+				$(".sobre h2").animate({"opacity": '1'}, 550);
 				$("#info_info").slideUp(200);
 				$(".informacoes").css("border-bottom", "5px solid transparent");
 				$(".objetivos").css("border-bottom", "5px solid transparent");
@@ -34,7 +34,7 @@ $(document).ready(function()
 				$("#btn_inf").animate({"margin-left": '-10%', "opacity": '0'}, 400);
 				$("#btn_fi").animate({"margin-left": '-10%', "opacity": '0'}, 400);
 				$(".sobre h2").animate({"opacity": '0'}, 100);
-				$("#info_obj").show("slide", { direction: "left" }, 1000);
+				$("#info_obj").slideDown(600);
 				$(".informacoes").css("border-bottom", "inherit");
 				$(".objetivos").css("border-bottom", "inherit");
 				$(".filosofia").css("border-bottom", "inherit");
@@ -44,7 +44,7 @@ $(document).ready(function()
 				$("#btn_inf").animate({"margin-left": '0px',"opacity": '1'}, 400);
 				$("#btn_fi").animate({"margin-left": '0px', "opacity": '1'}, 400);
 				$(".sobre h2").animate({"opacity": '1'}, 300);
-				$("#info_obj").hide('slide', { direction: 'right' });
+				$("#info_obj").slideUp(200);
 				$(".informacoes").css("border-bottom", "5px solid transparent");
 				$(".objetivos").css("border-bottom", "5px solid transparent");
 				$(".filosofia").css("border-bottom", "5px solid transparent");
