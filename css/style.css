@@ -235,6 +235,7 @@ section:nth-child(7) {
     border-radius: 50%;
     float: left;
     border: 9px solid #ff7a46;
+    transition: margin 0.2s ease-in 0s;
     }
     #btn_inf:focus {
       box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
@@ -250,6 +251,7 @@ section:nth-child(7) {
     border-radius: 50%;
     float: right;
     border: 9px solid #2176B8;
+    transition: margin 0.2s ease-in 0s;
   }
 #btn_fi{
     width: 21%;
@@ -262,7 +264,7 @@ section:nth-child(7) {
     border-radius: 50%;
     float: left;
     border: 9px solid #38CE8E;
-    border-image-slice: 1;
+    transition: margin 0.2s ease-in 0s;
   }
 #info_info{
   position: absolute;
