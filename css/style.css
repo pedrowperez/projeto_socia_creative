@@ -299,9 +299,10 @@ section:nth-child(7) {
 #info_fimp{position: absolute;display: none;width: 45%;height: 10.9%;margin: 0% 5.5%;border: 9px solid #38CE8E;border-image-slice: 1;}
 
 .servicos{
+    z-index: 1;
+    position: relative;
     width: 75%;
     height: 70%;
-    z-index: 2;
 }
 .branding{
     position: relative;
@@ -311,10 +312,10 @@ section:nth-child(7) {
 }
 .web{
 	position: relative;
-    width: 25%;
-    height: 100%;
-    float: left;
-  }
+	width: 25%;
+	height: 100%;
+	float: left;
+	}
 .d_grafico{
 	position: relative;
 	width: 25%;
@@ -411,7 +412,7 @@ section:nth-child(7) {
     position: relative;
     width: 30%;
     height: 16%;
-    background: red;
+    background: yellow;
     right: 140%;
     float: left;
     opacity: 0;
@@ -424,7 +425,7 @@ section:nth-child(7) {
     position: relative;
     width: 30%;
     height: 16%;
-    background: red;
+    background: yellow;
     right: 70%;
     float: left;
     opacity: 0;
@@ -437,7 +438,7 @@ section:nth-child(7) {
     position: relative;
     width: 30%;
     height: 16%;
-    background: red;
+    background: yellow;
     left: 100%;
     float: left;
     opacity: 0;

@@ -5,7 +5,7 @@ body {
   margin: 0; }
 
 .code {
-  z-index: 1;
+  z-index: 0;
   width: 70%;
   overflow: hidden;
   position: absolute;

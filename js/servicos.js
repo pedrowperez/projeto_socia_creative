@@ -5,10 +5,10 @@ $(document).ready(function()
 		{
 			if (!move1)
 			{	
-				$(".btn_brad").animate({"margin-top": '0%'}, 400);
+				$(".btn_brad").animate({"margin-top": '0%', "z-index": '1'}, 400);
 				$(".btn_web, .btn_dgraf, .btn_mdig").animate({"margin-top": '110%'}, 400);
-				$('.b1, .b2, .b3').animate({"opacity": '1'}, 100);
-				$('.w1, .w2, .w3, .d1, .d2, .d3, .m1, .m2, .m3').animate({"opacity": '0'}, 100);
+				$('.b1, .b2, .b3').animate({"opacity": '1', "z-index": '1'}, 100);
+				$('.w1, .w2, .w3, .d1, .d2, .d3, .m1, .m2, .m3').animate({"opacity": '0', "z-index": '0'}, 100);
 				move1 = true
 				move2 = false
 				move3 = false
@@ -26,10 +26,10 @@ $(document).ready(function()
 		{
 			if (!move2)
 			{	
-				$(".btn_web").animate({"margin-top": '0%'}, 400);
+				$(".btn_web").animate({"margin-top": '0%', "z-index": '1'}, 400);
 				$(".btn_brad, .btn_dgraf, .btn_mdig").animate({"margin-top": '110%'}, 400);
-				$('.w1, .w2, .w3').animate({"opacity": '1'}, 100);
-				$('.b1, .b2, .b3, .d1, .d2, .d3, .m1, .m2, .m3').animate({"opacity": '0'}, 100);
+				$('.w1, .w2, .w3').animate({"opacity": '1', "z-index": '1'}, 100);
+				$('.b1, .b2, .b3, .d1, .d2, .d3, .m1, .m2, .m3').animate({"opacity": '0', "z-index": '0'}, 100);
 				move1 = false
 				move2 = true
 				move3 = false
@@ -47,10 +47,10 @@ $(document).ready(function()
 		{
 			if (!move3)
 			{	
-				$(".btn_dgraf").animate({"margin-top": '0%'}, 400);
+				$(".btn_dgraf").animate({"margin-top": '0%', "z-index": '1'}, 400);
 				$(".btn_brad, .btn_web, .btn_mdig").animate({"margin-top": '110%'}, 400);
-				$('.d1, .d2, .d3').animate({"opacity": '1'}, 100);
-				$('.w1, .w2, .w3, .b1, .b2, .b3, .m1, .m2, .m3').animate({"opacity": '0'}, 100);
+				$('.d1, .d2, .d3').animate({"opacity": '1', "z-index": '1'}, 100);
+				$('.w1, .w2, .w3, .b1, .b2, .b3, .m1, .m2, .m3').animate({"opacity": '0', "z-index": '0'}, 100);
 				move1 = false
 				move2 = false
 				move3 = true
@@ -68,10 +68,10 @@ $(document).ready(function()
 		{
 			if (!move4)
 			{	
-				$(".btn_mdig").animate({"margin-top": '0%'}, 400);
+				$(".btn_mdig").animate({"margin-top": '0%', "z-index": '1'}, 400);
 				$(".btn_brad, .btn_web, .btn_dgraf").animate({"margin-top": '110%'}, 400);
-				$(".m1, .m2, .m3").animate({"opacity": '1'}, 100);
-				$('.w1, .w2, .w3, .d1, .d2, .d3, .b1, .b2, .b3').animate({"opacity": '0'}, 100);
+				$(".m1, .m2, .m3").animate({"opacity": '1', "z-index": '1'}, 100);
+				$('.w1, .w2, .w3, .d1, .d2, .d3, .b1, .b2, .b3').animate({"opacity": '0', "z-index": '0'}, 100);
 				move1 = false
 				move2 = false
 				move3 = false
