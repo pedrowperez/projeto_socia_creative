@@ -9,6 +9,7 @@ $(document).ready(function()
 				$("#btn_fi").animate({"margin-left": '-30%', "opacity": '0'}, 400)
 				$(".sobre h2").animate({"opacity": '0'}, 100);
 				$("#info_info").slideDown(600);
+				$(".informacoes").css("border-bottom-width", "3%");
 				move = true
 			}
 			else{

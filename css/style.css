@@ -256,6 +256,7 @@ section:nth-child(7) {
     z-index: 2;
 }
 .branding{
+    position: relative;
     width: 25%;
     height: 100%;
     float: left;
@@ -276,25 +277,14 @@ section:nth-child(7) {
     float: left;
 }
 
-.btn_brad{
-    position: relative;
-    margin-top: 110%;
-    width: 50%;
-    height: 25%;
-    transition: all 0.3s ease 0s;
-}
-.btn_brad::after {
-  border-radius: 50%;
-}
-
 .b1{
-    position: absolute;
-    width: 10%;
-    height: 2%;
-    background: aqua;
-    left: 36.1%;
-    top: 36.7%;
-    opacity: 0;
+	position: relative;
+	width: 30%;
+	height: 16%;
+	background: #6400ff;
+	left: 130%;
+	float: left;
+	opacity: 0;
 }
 
 .b1:hover{
@@ -302,12 +292,12 @@ section:nth-child(7) {
 }
 
 .b2{
-    position: absolute;
-    width: 10%;
-    height: 2%;
-    background: aqua;
-    left: 53.8%;
-    top: 36.7%;
+    position: relative;
+    width: 30%;
+    height: 16%;
+    background: #6400ff;
+    left: 200%;
+    float: left;
     opacity: 0;
 }
 .b2:hover{
@@ -315,12 +305,12 @@ section:nth-child(7) {
 }
 
 .b3{
-    position: absolute;
-    width: 10%;
-    height: 2%;
-    background: aqua;
-    left: 71.4%;
-    top: 36.7%;
+    position: relative;
+    width: 30%;
+    height: 16%;
+    background: #6400ff;
+    left: 268%;
+    float: left;
     opacity: 0;
 }
 .b3:hover{
@@ -447,23 +437,29 @@ section:nth-child(7) {
     background: red;
 }
 
+.btn_brad{
+    position: absolute;
+    margin-top: 110%;
+    width: 50%;
+    height: 25%;
+}
 .btn_web{
     position: relative;
     margin-top: 110%;
     width: 50%;
-    height: 20%;
+    height: 25%;
 }
 .btn_dgraf{
     position: relative;
     margin-top: 110%;
     width: 50%;
-    height: 20%;
+    height: 25%;
 }
 .btn_mdig{
     position: relative;
     margin-top: 110%;
     width: 50%;
-    height: 20%;
+    height: 25%	;
 }
 
 .contato {
