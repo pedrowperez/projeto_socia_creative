@@ -489,27 +489,48 @@ section:nth-child(7) {
 
 .btn_brad{
     position: absolute;
-    margin-top: 110%;
-    width: 50%;
+    margin-top: 70%;
+    width: 60%;
     height: 25%;
+    border: inherit;
+    cursor: pointer;
+    background: url('../img/servicos_pentagono.svg');
+    font-size: 0.6em;
+    padding: 17% 2% 0% 0%;
+    transition: background 0.2s linear 0s;
 }
 .btn_web{
     position: absolute;
-    margin-top: 110%;
-    width: 50%;
+    margin-top: 70%;
+    width: 60%;
     height: 25%;
+    border: inherit;
+    cursor: pointer;
+    background: url('../img/servicos_pentagono.svg');
+    font-size: 0.6em;
+    padding: 17% 2% 0% 0%;
 }
 .btn_dgraf{
     position: absolute;
-    margin-top: 110%;
-    width: 50%;
+    margin-top: 70%;
+    width: 60%;
     height: 25%;
+    border: inherit;
+    cursor: pointer;
+    background: url('../img/servicos_pentagono.svg');
+    font-size: 0.6em;
+    padding: 17% 2% 0% 0%;
 }
 .btn_mdig{
     position: absolute;
-    margin-top: 110%;
-    width: 50%;
+    margin-top: 70%;
+    width: 60%;
     height: 25%;
+    border: inherit;
+    cursor: pointer;
+    background: url('../img/servicos_pentagono.svg');
+    font-size: 0.6em;
+    padding: 17% 2% 0% 0%;
 }
 
 .contato {
@@ -699,4 +720,9 @@ width: 60%;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+.cnt {
+  border-radius: 50%;
+  
 }
