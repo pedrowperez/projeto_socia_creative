@@ -268,7 +268,7 @@ section:nth-child(7) {
   display: none;
   width: 85%;
   height: 85%;
-  top: 5%;
+  top: 10%;
   left: 10%;
   background: #333333;
   border: 9px solid #ff7a46;
@@ -279,7 +279,7 @@ section:nth-child(7) {
   display: none;
   width: 85%;
   height: 85%;
-  top: 5%;
+  top: 6%;
   left: 5%;
   border: 9px solid #2176B8;
   background: url('../img/processo-operacional.svg') 100% center no-repeat;
@@ -647,12 +647,10 @@ section:nth-child(7) {
 }
 
 .filosofia-title {
-  font-size: 90%;
-  top: 40%;
-  left: 22%;
-  float: left;
-  padding: 0% 9% 2% 6%;
-  border-bottom: 10px solid #38CE8E;
+  font-size: 66%;
+  top: 25%;
+  /* left: 1%; */
+  border-bottom: 5px solid #38CE8E;
 }
 
 .filosofia-title .bold {
@@ -663,7 +661,7 @@ section:nth-child(7) {
   font-size: 88%;
   top: 38%;
   right: 23%;
-  padding: 0% 7% 2% 4%;
+  padding: 0% 5% 2% 4%;
   border-bottom: 10px solid #2176b8;
 }
 
