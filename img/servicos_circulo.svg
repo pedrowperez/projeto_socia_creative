@@ -4,9 +4,9 @@
 	 viewBox="0 0 515 410" style="enable-background:new 0 0 515 410;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;fill:none;stroke:url(#XMLID_4_);stroke-width:11;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:url(#XMLID_5_);stroke-width:11;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:url(#XMLID_5_);stroke-width:20;stroke-miterlimit:10;}
 </style>
-<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="22.235" y1="204.9978" x2="492.8849" y2="204.9978">
+<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="22.249" y1="204.9993" x2="492.8514" y2="204.9993" gradientTransform="matrix(1 0 0 -1 0 410)">
 	<stop  offset="0" style="stop-color:#CF724F"/>
 	<stop  offset="0.3197" style="stop-color:#7C748A"/>
 	<stop  offset="0.5255" style="stop-color:#246FAA"/>
@@ -15,7 +15,7 @@
 	<stop  offset="1" style="stop-color:#479F7B"/>
 </linearGradient>
 <polygon id="XMLID_1_" class="st0" points="372.6,402.9 143.7,403.6 28.6,205.7 142.5,7 371.4,6.4 486.5,204.3 "/>
-<linearGradient id="XMLID_5_" gradientUnits="userSpaceOnUse" x1="45.0992" y1="204.9978" x2="465.5" y2="204.9978">
+<linearGradient id="XMLID_5_" gradientUnits="userSpaceOnUse" x1="50.6" y1="204.2169" x2="461" y2="204.2169" gradientTransform="matrix(1 0 0 -1 0 410)">
 	<stop  offset="0" style="stop-color:#CF724F"/>
 	<stop  offset="0.3197" style="stop-color:#7C748A"/>
 	<stop  offset="0.5255" style="stop-color:#246FAA"/>
@@ -23,5 +23,5 @@
 	<stop  offset="0.9028" style="stop-color:#419987"/>
 	<stop  offset="1" style="stop-color:#479F7B"/>
 </linearGradient>
-<ellipse id="XMLID_2_" class="st1" cx="255.3" cy="205" rx="204.7" ry="198.6"/>
+<ellipse id="XMLID_2_" class="st1" cx="255.8" cy="205.8" rx="195.2" ry="189.4"/>
 </svg>

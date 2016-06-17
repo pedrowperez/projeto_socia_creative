@@ -9,7 +9,7 @@ $(document).ready(function()
 				$(".btn_web, .btn_dgraf, .btn_mdig").animate({"margin-top": '70%'}, 400);
 				$('.b1, .b2, .b3').animate({"opacity": '1', "z-index": '1'}, 100);
 				$('.w1, .w2, .w3, .d1, .d2, .d3, .m1, .m2, .m3').animate({"opacity": '0', "z-index": '0'}, 100);
-				$(".btn_brad").css("background", "url(img/servicos_circulo.svg)", 500).rotate({
+				$(".btn_brad").css("background", "url(img/servicos_circulo.svg) no-repeat", 500).rotate({
       angle: 0,
       animateTo:360,
       duration:500
@@ -22,7 +22,7 @@ $(document).ready(function()
 			else{
 				$(".btn_brad").animate({"margin-top": '70%'}, 400);
 				$(".b1, .b2, .b3").animate({"opacity": '0'}, 100);
-				$(".btn_brad").css("background", "url(img/servicos_pentagono.svg)", 500).rotate({
+				$(".btn_brad").css("background", "url(img/servicos_pentagono.svg) no-repeat", 500).rotate({
       angle: 0,
       animateTo:360,
       duration:500
@@ -40,7 +40,7 @@ $(document).ready(function()
 				$(".btn_brad, .btn_dgraf, .btn_mdig").animate({"margin-top": '70%'}, 400);
 				$('.w1, .w2, .w3').animate({"opacity": '1', "z-index": '1'}, 100);
 				$('.b1, .b2, .b3, .d1, .d2, .d3, .m1, .m2, .m3').animate({"opacity": '0', "z-index": '0'}, 100);
-				$(".btn_web").css("background", "url(img/servicos_circulo.svg)", 500).rotate({
+				$(".btn_web").css("background", "url(img/servicos_circulo.svg) no-repeat", 500).rotate({
       angle: 0,
       animateTo:360,
       duration:500
@@ -53,7 +53,7 @@ $(document).ready(function()
 			else{
 				$(".btn_web").animate({"margin-top": '70%'}, 400);
 				$(".w1, .w2, .w3").animate({"opacity": '0'}, 100);
-				$(".btn_web").css("background", "url(img/servicos_pentagono.svg)", 500).rotate({
+				$(".btn_web").css("background", "url(img/servicos_pentagono.svg) no-repeat", 500).rotate({
       angle: 0,
       animateTo:360,
       duration:500
@@ -71,7 +71,7 @@ $(document).ready(function()
 				$(".btn_brad, .btn_web, .btn_mdig").animate({"margin-top": '70%'}, 400);
 				$('.d1, .d2, .d3').animate({"opacity": '1', "z-index": '1'}, 100);
 				$('.w1, .w2, .w3, .b1, .b2, .b3, .m1, .m2, .m3').animate({"opacity": '0', "z-index": '0'}, 100);
-				$(".btn_dgraf").css("background", "url(img/servicos_circulo.svg)", 500).rotate({
+				$(".btn_dgraf").css("background", "url(img/servicos_circulo.svg) no-repeat", 500).rotate({
       angle: 0,
       animateTo:360,
       duration:500
@@ -84,7 +84,7 @@ $(document).ready(function()
 			else{
 				$(".btn_dgraf").animate({"margin-top": '70%'}, 400);
 				$(".d1, .d2, .d3").animate({"opacity": '0'}, 100);
-				$(".btn_dgraf").css("background", "url(img/servicos_pentagono.svg)", 500).rotate({
+				$(".btn_dgraf").css("background", "url(img/servicos_pentagono.svg) no-repeat", 500).rotate({
       angle: 0,
       animateTo:360,
       duration:500
@@ -102,7 +102,7 @@ $(document).ready(function()
 				$(".btn_brad, .btn_web, .btn_dgraf").animate({"margin-top": '70%'}, 400);
 				$(".m1, .m2, .m3").animate({"opacity": '1', "z-index": '1'}, 100);
 				$('.w1, .w2, .w3, .d1, .d2, .d3, .b1, .b2, .b3').animate({"opacity": '0', "z-index": '0'}, 100);
-				$(".btn_mdig").css("background", "url(img/servicos_circulo.svg)", 500).rotate({
+				$(".btn_mdig").css("background", "url(img/servicos_circulo.svg) no-repeat", 500).rotate({
       angle: 0,
       animateTo:360,
       duration:500
@@ -115,7 +115,7 @@ $(document).ready(function()
 			else{
 				$(".btn_mdig").animate({"margin-top": '70%'}, 400);
 				$(".m1, .m2, .m3").animate({"opacity": '0'}, 100);
-				$(".btn_mdig").css("background", "url(img/servicos_pentagono.svg)", 500).rotate({
+				$(".btn_mdig").css("background", "url(img/servicos_pentagono.svg) no-repeat", 500).rotate({
       angle: 0,
       animateTo:360,
       duration:500

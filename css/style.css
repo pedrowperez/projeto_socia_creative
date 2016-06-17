@@ -288,10 +288,10 @@ section:nth-child(7) {
   }
 
 .title_obj {
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 200;
   position: absolute;
-  margin: 1% 10%;
+  margin: 1.5% 7%;
 }
 .title_obj .bold {
   font-weight: 700;
@@ -302,7 +302,9 @@ section:nth-child(7) {
     z-index: 1;
     position: relative;
     width: 75%;
+    left: -3.5%;
     height: 70%;
+    top: -5%;
 }
 .branding{
     position: relative;
@@ -331,12 +333,13 @@ section:nth-child(7) {
 
 .b1{
 	position: relative;
-	width: 30%;
-	height: 16%;
+	width: 20%;
+	height: 10%;
 	background: #6400ff;
-	left: 160%;
+	left: 170%;
 	float: left;
 	opacity: 0;
+	top: 9%;
 }
 
 .b1:hover{
@@ -345,12 +348,13 @@ section:nth-child(7) {
 
 .b2{
     position: relative;
-    width: 30%;
-    height: 16%;
+    width: 20%;
+    height: 10%;
     background: #6400ff;
-    left: 230%;
+    left: 250%;
     float: left;
     opacity: 0;
+    top: 9%;
 }
 .b2:hover{
     background: red;
@@ -358,12 +362,13 @@ section:nth-child(7) {
 
 .b3{
     position: relative;
-    width: 30%;
-    height: 16%;
+    width: 20%;
+    height: 10%;
     background: #6400ff;
-    left: 300%;
+    left: 330%;
     float: left;
     opacity: 0;
+    top: 9%;
 }
 .b3:hover{
     background: red;
@@ -371,12 +376,13 @@ section:nth-child(7) {
 
 .w1{
     position: relative;
-    width: 30%;
-    height: 16%;
+    width: 20%;
+    height: 10%;
     background: aqua;
-    left: -40%;
+    left: -30%;
     float: left;
     opacity: 0;
+    top: 9%;
 }
 .w1:hover{
     background: red;
@@ -384,12 +390,13 @@ section:nth-child(7) {
 
 .w2{
     position: relative;
-    width: 30%;
-    height: 16%;
+    width: 20%;
+    height: 10%;
     background: aqua;
-    left: 130%;
+    left: 150%;
     float: left;
     opacity: 0;
+    top: 9%;
 }
 .w2:hover{
     background: red;
@@ -397,12 +404,13 @@ section:nth-child(7) {
 
 .w3{
     position: relative;
-    width: 30%;
-    height: 16%;
+    width: 20%;
+    height: 10%;
     background: aqua;
-    left: 200%;
+    left: 230%;
     float: left;
     opacity: 0;
+    top: 9%;
 }
 .w3:hover{
     background: red;
@@ -410,12 +418,13 @@ section:nth-child(7) {
 
 .d1{
     position: relative;
-    width: 30%;
-    height: 16%;
+    width: 20%;
+    height: 10%;
     background: yellow;
-    right: 140%;
+    right: 130%;
     float: left;
     opacity: 0;
+    top: 9%;
 }
 .d1:hover{
     background: red;
@@ -423,12 +432,13 @@ section:nth-child(7) {
 
 .d2{
     position: relative;
-    width: 30%;
-    height: 16%;
+    width: 20%;
+    height: 10%;
     background: yellow;
-    right: 70%;
+    right: 50%;
     float: left;
     opacity: 0;
+    top: 9%;
 }
 .d2:hover{
     background: red;
@@ -436,12 +446,13 @@ section:nth-child(7) {
 
 .d3{
     position: relative;
-    width: 30%;
-    height: 16%;
+    width: 20%;
+    height: 10%;
     background: yellow;
-    left: 100%;
+    left: 130%;
     float: left;
     opacity: 0;
+    top: 9%;
 }
 .d3:hover{
     background: red;
@@ -449,12 +460,13 @@ section:nth-child(7) {
 
 .m1{
     position: relative;
-    width: 30%;
-    height: 16%;
+    width: 20%;
+    height: 10%;
     background: green;
-    right: 240%;
+    right: 230%;
     float: left;
     opacity: 0;
+    top: 9%;
 }
 
 .m1:hover{
@@ -463,12 +475,13 @@ section:nth-child(7) {
 
 .m2{
     position: relative;
-    width: 30%;
-    height: 16%;
+    width: 20%;
+    height: 10%;
     background: green;
-    right: 170%;
+    right: 150%;
     float: left;
     opacity: 0;
+    top: 9%;
 }
 .m2:hover{
     background: red;
@@ -476,12 +489,13 @@ section:nth-child(7) {
 
 .m3{
     position: relative;
-    width: 30%;
-    height: 16%;
+    width: 20%;
+    height: 10%;
     background: green;
-    right: 100%;
+    right: 70%;
     float: left;
     opacity: 0;
+    top: 9%;
 }
 .m3:hover{
     background: red;
@@ -497,7 +511,23 @@ section:nth-child(7) {
     background: url('../img/servicos_pentagono.svg');
     font-size: 0.6em;
     padding: 17% 2% 0% 0%;
-    transition: background 0.2s linear 0s;
+    transition: background 0.3s ease-in;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.btn_brad::before {
+  background-image: url('../img/icon/servico_1.png');
+  background-position: center;
+  background-size: 80%;
+  content: "";
+  width: 100%;
+  height: 90%;
+  display: inline-block;
+  position: relative;
+  top: -20%;
 }
 .btn_web{
     position: absolute;
@@ -509,7 +539,25 @@ section:nth-child(7) {
     background: url('../img/servicos_pentagono.svg');
     font-size: 0.6em;
     padding: 17% 2% 0% 0%;
+    transition: background 0.3s ease-in;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
+
+.btn_web::before {
+    background-image: url('../img/icon/servico_2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+    width: 100%;
+    height: 90%;
+    display: inline-block;
+    position: relative;
+    top: -20%;
+}
+
 .btn_dgraf{
     position: absolute;
     margin-top: 70%;
@@ -520,7 +568,24 @@ section:nth-child(7) {
     background: url('../img/servicos_pentagono.svg');
     font-size: 0.6em;
     padding: 17% 2% 0% 0%;
+    transition: background 0.3s ease-in;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
+.btn_dgraf::before {
+    background-image: url('../img/icon/servico_3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+    width: 102%;
+    height: 90%;
+    display: inline-block;
+     position: relative;
+    top: -20%;
+}
+
 .btn_mdig{
     position: absolute;
     margin-top: 70%;
@@ -531,6 +596,22 @@ section:nth-child(7) {
     background: url('../img/servicos_pentagono.svg');
     font-size: 0.6em;
     padding: 17% 2% 0% 0%;
+    transition: background 0.3s ease-in;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.btn_mdig::before {
+    background-image: url('../img/icon/servico_4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+    width: 102%;
+    height: 90%;
+    display: inline-block;
+    position: relative;
+    top: -20%;
 }
 
 .contato {
@@ -725,4 +806,15 @@ width: 60%;
 .cnt {
   border-radius: 50%;
   
+}
+
+.computer-service {
+  background-image: url('../img/computer-service.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 50%;
+  height: 23.9%;
+  position: absolute;
+  margin: 0 auto;
 }
