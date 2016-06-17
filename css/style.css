@@ -189,44 +189,44 @@ section:nth-child(7) {
 }
 
 
-.sobre{width: 60%;height: 70%;display: inline-block;}
-.sobre h2 {font-size: 0.9em;display: initial;position: relative;top: 65%;left: -5%;}
+.sobre{position: relative;width: 65%;height: 75%;display: inline-block;}
+.sobre h2 {font-size: 70%;display: initial;position: relative;top: 30%;left: 3%;border-bottom: 5px solid bisque;}
 
 
 .informacoes {
-  position: absolute;
-  width: 57%;
-  height: 3%;
+  position: relative;
+  width: 100%;
+  height: 33.3%;
   border-bottom: 5px solid transparent;
   -moz-border-image: -moz-linear-gradient(right, #333333 0%, #ff7a46 30%);
-    -webkit-border-image: -webkit-linear-gradient(right, #333333 0%, #ff7a46 30%);
-    border-image: linear-gradient(to right, #333333 0%, #ff7a46 30%);
-    border-image-slice: 1; }
+  -webkit-border-image: -webkit-linear-gradient(right, #333333 0%, #ff7a46 30%);
+  border-image: linear-gradient(to right, #333333 0%, #ff7a46 30%);
+  border-image-slice: 1;
+  }
 .objetivos {
-  position: absolute;
-  width: 57%;
-  height: 3%;
-  top: 23.5%;
+  position: relative;
+  width: 100%;
+  height: 33.3%;
   text-align: right;
   border-bottom: 5px solid transparent;
   -moz-border-image: -moz-linear-gradient(left, #333333 0%, #2176B8 30%);
-    -webkit-border-image: -webkit-linear-gradient(left, #333333 0%, #2176B8 30%);
-    border-image: linear-gradient(to left, #333333 0%, #2176B8 30%);
-    border-image-slice: 1;}
+  -webkit-border-image: -webkit-linear-gradient(left, #333333 0%, #2176B8 30%);
+  border-image: linear-gradient(to left, #333333 0%, #2176B8 30%);
+  border-image-slice: 1;
+  }
 .filosofia {
-  position: absolute;
-  width: 57%;
-  height: 3%;
-  top: 27%;
+  position: relative;
+  width: 100%;
+  height: 33.3%;
   border-bottom: 5px solid transparent;
   -moz-border-image: -moz-linear-gradient(right, #333333 0%, #38CE8E 30%);
-    -webkit-border-image: -webkit-linear-gradient(right, #333333 0%, #38CE8E 30%);
-    border-image: linear-gradient(to right, #333333 0%, #38CE8E 30%);
-    border-image-slice: 1;
+  -webkit-border-image: -webkit-linear-gradient(right, #333333 0%, #38CE8E 30%);
+  border-image: linear-gradient(to right, #333333 0%, #38CE8E 30%);
+  border-image-slice: 1;
   }
 #btn_inf  {
-    width: 21%;
-    height: 125%;
+    width: 25%;
+    height: 100%;
     background-color: #333333;
     background-image: url('../img/icon/informacoes.png');
     background-position: center;
@@ -241,8 +241,8 @@ section:nth-child(7) {
       box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
     }
 #btn_obj{
-    width: 21%;
-    height: 125%;
+    width: 25%;
+    height: 100%;
     background-color: #333333;
     background-image: url('../img/icon/objetivos.png');
     background-position: center;
@@ -254,8 +254,8 @@ section:nth-child(7) {
     transition: margin 0.2s ease-in 0s;
   }
 #btn_fi{
-    width: 21%;
-    height: 125%;
+    width: 25%;
+    height: 100%;
     background-color: #333333;
     background-image: url('../img/icon/filosofia.png');
     background-position: center;
@@ -269,23 +269,36 @@ section:nth-child(7) {
 #info_info{
   position: absolute;
   display: none;
-  width: 47%;
-  height: 11.7%;
-  margin: 0 5.5%;
+  width: 80%;
+  height: 80%;
+  top: 14%;
+  left: 12%;
   background: #333333;
   border: 9px solid #ff7a46;
   border-image-slice: 1;
-  }
+}
 #info_obj{
   position: absolute;
   display: none;
-  width: 46.5%;
-  height: 11.8%;
-  margin: 0% 5%;
+  width: 80%;
+  height: 80%;
+  top: 9%;
+  left: 8%;
   border: 9px solid #2176B8;
   background: url('../img/processo-operacional.svg') 100% center no-repeat;
   transition-property: all;
-  }
+}
+
+#info_fimp{position: absolute;
+  display: none;
+  width: 80%;
+  height: 80%;
+  top: 14%;
+  left: 12%;
+  background: #333333;
+  border: 9px solid #38CE8E;
+  border-image-slice: 1;
+}
 
 .title_obj {
   font-size: 0.8em;
@@ -296,8 +309,6 @@ section:nth-child(7) {
 .title_obj .bold {
   font-weight: 700;
 }
-#info_fimp{position: absolute;display: none;width: 45%;height: 10.9%;margin: 0% 5.5%;border: 9px solid #38CE8E;border-image-slice: 1;}
-
 .servicos{
     z-index: 1;
     position: relative;
