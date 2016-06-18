@@ -6,17 +6,18 @@ body {
 
 .code {
   z-index: 0;
-  width: 70%;
+  width: 100%;
   overflow: hidden;
-  position: absolute;
-  height: 10%;
-  margin: 21.7% 0% 0% -70%;
+  position: relative;
+  height: 50%;
+  /* right: 500px; */
+  top: 14%;
+  /* margin: 50px 0 0 -167px; */
   }
 
 .svg {
   position: relative;
-  bottom: -60px;
-  width: 70%;
+  width: 82%;
   left: 0;
   right: 0;
   margin: auto;
