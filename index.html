@@ -18,7 +18,10 @@
 	<link rel="stylesheet" href="css/slideequipe.css">
 	<link rel="stylesheet" type="text/css" href="css/stylesass.css">
 	<link rel="stylesheet" href="css/component.css">
+  <link rel="stylesheet" href="css/flickity.css" media="screen">
 	<script src="js/sectionselectconfiguration.js"> </script>
+  <script src="js/flickity.pkgd.min.js"></script>
+    
   <script src="js/jQueryRotate.js"> </script>
 	<script src="js/sectionselect.js"> </script>
 	<script src="js/smoothscrool.js"> </script>
@@ -38,7 +41,12 @@
   
           </a>
         </li>
-
+        <li role="presentation">
+          <a href="#section1">
+            <span class="nav__counter icon_nav" id="oque_icon"></span>
+     
+          </a>
+        </li>
         <li role="presentation">
           <a href="#section2">
             <span class="nav__counter icon_nav" id="sobre_icon"></span>
@@ -83,7 +91,15 @@
       <h3 class="main-description thin"> CONNECTING <span class="bold"> PEOPLE </span> 
       </h3>
    	 </section>
+  <section class="section section1" id="section1">
+      <div class="oque_slide">
+      <div class="carousel js-flickity"
+  data-flickity-options='{ "cellAlign": "left", "contain": true , "prevNextButtons": false, "pageDots": false }'>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+</div> </div>
 
+  </section>
     <section class="section section2" id="section2">
 
       <div class="sobre">
