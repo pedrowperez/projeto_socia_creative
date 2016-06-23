@@ -1,7 +1,11 @@
+body {
 
+  overflow: hidden;
+}
  @font-face {
     font-family: 'Lato', sans-serif;
     src: url("https://fonts.googleapis.com/css?family=Lato:400,300,700");
+}
 }
 .wrapper {
   min-height: 100vh;
@@ -850,6 +854,7 @@ width: 60%;
   background: red;
   width: 100%;
   height: 100%;
+      cursor: url('../img/swipe-to-right.cur');
 }
 
 .carousel-cell:nth-child(2) {

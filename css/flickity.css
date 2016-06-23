@@ -4,8 +4,8 @@ http://flickity.metafizzy.co
 
 .flickity-enabled {
   position: relative;
-  top: 6%;
-  padding: 5.2% 4.9% 0 5.2%;
+  top: 6.5%;
+  padding: 8.2% 7.9% 8.2%;
 }
 
 .flickity-enabled:focus { outline: none; }
@@ -13,7 +13,7 @@ http://flickity.metafizzy.co
 .flickity-viewport {
   overflow: hidden;
   position: relative;
-  height: 16.9em !important;
+  height: 15.9em !important;
 }
 
 .flickity-slider {
