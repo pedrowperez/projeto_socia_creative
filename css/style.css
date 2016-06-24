@@ -317,11 +317,11 @@ section:nth-child(7) {
 }
 .servicos{
     z-index: 1;
-    position: relative;
-    width: 75%;
-    left: -3.5%;
-    height: 70%;
-    top: -5%;
+    
+    
+    ]: inline-block
+    align-items: center;
+    height: 100%;
 }
 .branding{
     position: relative;
@@ -863,4 +863,28 @@ width: 60%;
 
 .carousel {
   width: 100%;
+}
+
+.serv {
+    height: 9em;
+    display: flex;
+}
+
+.serv div {
+  /* background: red; */
+}
+
+.serv div:nth-child(1) {
+  border-right: 4px solid grey;
+
+}
+
+.serv div:nth-child(2) {
+  border-right: 4px solid grey
+}
+.serv div:nth-child(3) {
+  border-right: 4px solid grey
+}
+.serv div:nth-child(4) {
+  
 }
