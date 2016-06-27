@@ -1,7 +1,11 @@
+body {
 
+  overflow: hidden;
+}
  @font-face {
     font-family: 'Lato', sans-serif;
     src: url("https://fonts.googleapis.com/css?family=Lato:400,300,700");
+}
 }
 .wrapper {
   min-height: 100vh;
@@ -169,6 +173,10 @@ section:nth-child(7) {
  background: url('../img/icon/servicos.png') no-repeat;
  background-size: 100%;
  }
+#oque_icon {
+     background: url('../img/icon/oque.png') no-repeat;
+     background-size: 100%;
+}
 #sobre_icon {
      background: url('../img/icon/sobre.png') no-repeat;
      background-size: 100%;
@@ -189,17 +197,41 @@ section:nth-child(7) {
 }
 
 
-.sobre{width: 60%;height: 70%;display: inline-block;}
-.sobre h2 {font-size: 0.9em;display: initial;position: relative;top: 65%;left: -5%;}
+.sobre{position: relative;width: 55%;height: 70%;display: inline-block;}
+.sobre h2 {display: initial;position: absolute;}
 
 
-.informacoes{position: absolute;width: 57%;height: 3%;z-index: 2;border-bottom: 5px solid #ff7a46;}
-.objetivos{position: absolute;width: 57%;height: 3%;top: 23.5%;text-align: right;border-bottom: 5px solid #2176B8;}
-.filosofia
-{position: absolute;width: 57%;height: 3%;top: 27%;border-bottom: 5px solid #38CE8E;}
+.informacoes {
+  position: relative;
+  width: 100%;
+  height: 33.3%;
+  -moz-border-image: -moz-linear-gradient(right, #333333 0%, #ff7a46 30%);
+  -webkit-border-image: -webkit-linear-gradient(right, #333333 0%, #ff7a46 30%);
+  border-image: linear-gradient(to right, #333333 0%, #ff7a46 30%);
+  border-image-slice: 1;
+  }
+.objetivos {
+  position: relative;
+  width: 100%;
+  height: 33.3%;
+  text-align: right;
+  -moz-border-image: -moz-linear-gradient(left, #333333 0%, #2176B8 30%);
+  -webkit-border-image: -webkit-linear-gradient(left, #333333 0%, #2176B8 30%);
+  border-image: linear-gradient(to left, #333333 0%, #2176B8 30%);
+  border-image-slice: 1;
+  }
+.filosofia {
+  position: relative;
+  width: 100%;
+  height: 33.3%;
+  -moz-border-image: -moz-linear-gradient(right, #333333 0%, #38CE8E 30%);
+  -webkit-border-image: -webkit-linear-gradient(right, #333333 0%, #38CE8E 30%);
+  border-image: linear-gradient(to right, #333333 0%, #38CE8E 30%);
+  border-image-slice: 1;
+  }
 #btn_inf  {
-    width: 21%;
-    height: 125%;
+    width: 22%;
+    height: 100%;
     background-color: #333333;
     background-image: url('../img/icon/informacoes.png');
     background-position: center;
@@ -208,13 +240,14 @@ section:nth-child(7) {
     border-radius: 50%;
     float: left;
     border: 9px solid #ff7a46;
+    /* transition: margin 0.2s ease-in 0s; */
     }
     #btn_inf:focus {
       box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
     }
 #btn_obj{
-    width: 21%;
-    height: 125%;
+    width: 22%;
+    height: 100%;
     background-color: #333333;
     background-image: url('../img/icon/objetivos.png');
     background-position: center;
@@ -223,10 +256,11 @@ section:nth-child(7) {
     border-radius: 50%;
     float: right;
     border: 9px solid #2176B8;
+    /* transition: margin 0.2s ease-in 0s; */
   }
 #btn_fi{
-    width: 21%;
-    height: 125%;
+    width: 22%;
+    height: 100%;
     background-color: #333333;
     background-image: url('../img/icon/filosofia.png');
     background-position: center;
@@ -235,65 +269,94 @@ section:nth-child(7) {
     border-radius: 50%;
     float: left;
     border: 9px solid #38CE8E;
-    border-image-slice: 1;
+    /* transition: margin 0.2s ease-in 0s; */
   }
 #info_info{
   position: absolute;
   display: none;
-  width: 47%;
-  height: 11.7%;
-  margin: 0 5.5%;
+  width: 85%;
+  height: 105%;
+  top: 5%;
+  left: 10%;
   background: #333333;
   border: 9px solid #ff7a46;
   border-image-slice: 1;
-  }
-#info_obj{position: absolute;display: none;width: 46.5%;height: 11.8%;margin: 0% 5%;background-color: #333333;border: 9px solid #2176B8;}
-#info_fimp{position: absolute;display: none;width: 45%;height: 10.9%;margin: 0% 5.5%;border: 9px solid green;border-image-slice: 1;}
+}
+#info_obj{
+  position: absolute;
+  display: none;
+  width: 85%;
+  height: 105%;
+  top: 5%;
+  left: 5%;
+  border: 9px solid #2176B8;
+  background: url('../img/processo-operacional.svg') 100% center no-repeat;
+  transition-property: all;
+}
 
+#info_fimp{
+  position: absolute;
+  display: none;
+  width: 85%;
+  height: 105%;
+  top: 4%;
+  left: 10%;
+  background: #333333;
+  border: 9px solid #38CE8E;
+  border-image-slice: 1;
+}
+
+.title_obj {
+  font-size: 0.8em;
+  font-weight: 200;
+  position: absolute;
+  margin: 1.5% 7%;
+}
+.title_obj .bold {
+  font-weight: 700;
+}
 .servicos{
-    width: 75%;
-    height: 70%;
+    z-index: 1;
+    
+    
+    ]: inline-block
+    align-items: center;
+    height: 100%;
 }
 .branding{
+    position: relative;
     width: 25%;
     height: 100%;
     float: left;
 }
 .web{
-    width: 25%;
-    height: 100%;
-    float: left;
-  }
+	position: relative;
+	width: 25%;
+	height: 100%;
+	float: left;
+	}
 .d_grafico{
-    width: 25%;
-    height: 100%;
-    float: left;
-  }
+	position: relative;
+	width: 25%;
+	height: 100%;
+	float: left;
+	}
 .m_digital{
-    width: 25%;
-    height: 100%;
-    float: left;
-}
-
-.btn_brad{
-    position: relative;
-    margin-top: 110%;
-    width: 50%;
-    height: 25%;
-    transition: all 0.3s ease 0s;
-}
-.btn_brad::after {
-  border-radius: 50%;
+	position: relative;
+	width: 25%;
+	height: 100%;
+	float: left;
 }
 
 .b1{
-    position: absolute;
-    width: 10%;
-    height: 2%;
-    background: aqua;
-    left: 36.1%;
-    top: 36.7%;
-    opacity: 0;
+	position: relative;
+	width: 20%;
+	height: 10%;
+	background: #6400ff;
+	left: 170%;
+	float: left;
+	opacity: 0;
+	top: 9%;
 }
 
 .b1:hover{
@@ -301,119 +364,126 @@ section:nth-child(7) {
 }
 
 .b2{
-    position: absolute;
-    width: 10%;
-    height: 2%;
-    background: aqua;
-    left: 53.8%;
-    top: 36.7%;
+    position: relative;
+    width: 20%;
+    height: 10%;
+    background: #6400ff;
+    left: 250%;
+    float: left;
     opacity: 0;
+    top: 9%;
 }
 .b2:hover{
     background: red;
 }
 
 .b3{
-    position: absolute;
-    width: 10%;
-    height: 2%;
-    background: aqua;
-    left: 71.4%;
-    top: 36.7%;
+    position: relative;
+    width: 20%;
+    height: 10%;
+    background: #6400ff;
+    left: 330%;
+    float: left;
     opacity: 0;
+    top: 9%;
 }
 .b3:hover{
     background: red;
 }
 
 .w1{
-    position: absolute;
-    width: 10%;
-    height: 2%;
+    position: relative;
+    width: 20%;
+    height: 10%;
     background: aqua;
-    left: 18.5%;
-    top: 36.7%;
+    left: -30%;
+    float: left;
     opacity: 0;
+    top: 9%;
 }
-
 .w1:hover{
     background: red;
 }
 
 .w2{
-    position: absolute;
-    width: 10%;
-    height: 2%;
+    position: relative;
+    width: 20%;
+    height: 10%;
     background: aqua;
-    left: 53.8%;
-    top: 36.7%;
+    left: 150%;
+    float: left;
     opacity: 0;
+    top: 9%;
 }
 .w2:hover{
     background: red;
 }
 
 .w3{
-    position: absolute;
-    width: 10%;
-    height: 2%;
+    position: relative;
+    width: 20%;
+    height: 10%;
     background: aqua;
-    left: 71.4%;
-    top: 36.7%;
+    left: 230%;
+    float: left;
     opacity: 0;
+    top: 9%;
 }
 .w3:hover{
     background: red;
 }
 
 .d1{
-    position: absolute;
-    width: 10%;
-    height: 2%;
-    background: aqua;
-    left: 18.5%;
-    top: 36.7%;
+    position: relative;
+    width: 20%;
+    height: 10%;
+    background: yellow;
+    right: 130%;
+    float: left;
     opacity: 0;
+    top: 9%;
 }
-
 .d1:hover{
     background: red;
 }
 
 .d2{
-    position: absolute;
-    width: 10%;
-    height: 2%;
-    background: aqua;
-    left: 36%;
-    top: 36.7%;
+    position: relative;
+    width: 20%;
+    height: 10%;
+    background: yellow;
+    right: 50%;
+    float: left;
     opacity: 0;
+    top: 9%;
 }
 .d2:hover{
     background: red;
 }
 
 .d3{
-    position: absolute;
-    width: 10%;
-    height: 2%;
-    background: aqua;
-    left: 71.4%;
-    top: 36.7%;
+    position: relative;
+    width: 20%;
+    height: 10%;
+    background: yellow;
+    left: 130%;
+    float: left;
     opacity: 0;
+    top: 9%;
 }
 .d3:hover{
     background: red;
 }
 
 .m1{
-    position: absolute;
-    width: 10%;
-    height: 2%;
-    background: aqua;
-    left: 18.5%;
-    top: 36.7%;
+    position: relative;
+    width: 20%;
+    height: 10%;
+    background: green;
+    right: 230%;
+    float: left;
     opacity: 0;
+    top: 9%;
 }
 
 .m1:hover{
@@ -421,48 +491,144 @@ section:nth-child(7) {
 }
 
 .m2{
-    position: absolute;
-    width: 10%;
-    height: 2%;
-    background: aqua;
-    left: 36%;
-    top: 36.7%;
+    position: relative;
+    width: 20%;
+    height: 10%;
+    background: green;
+    right: 150%;
+    float: left;
     opacity: 0;
+    top: 9%;
 }
 .m2:hover{
     background: red;
 }
 
 .m3{
-    position: absolute;
-    width: 10%;
-    height: 2%;
-    background: aqua;
-    left: 53.8%;
-    top: 36.7%;
+    position: relative;
+    width: 20%;
+    height: 10%;
+    background: green;
+    right: 70%;
+    float: left;
     opacity: 0;
+    top: 9%;
 }
 .m3:hover{
     background: red;
 }
 
+.btn_brad{
+    position: absolute;
+    margin-top: 70%;
+    width: 60%;
+    height: 25%;
+    border: inherit;
+    cursor: pointer;
+    background: url('../img/servicos_pentagono.svg');
+    font-size: 0.6em;
+    padding: 17% 2% 0% 0%;
+    transition: background 0.3s ease-in;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.btn_brad::before {
+  background-image: url('../img/icon/servico_1.png');
+  background-position: center;
+  background-size: 80%;
+  content: "";
+  width: 100%;
+  height: 90%;
+  display: inline-block;
+  position: relative;
+  top: -20%;
+}
 .btn_web{
-    position: relative;
-    margin-top: 110%;
-    width: 50%;
-    height: 20%;
+    position: absolute;
+    margin-top: 70%;
+    width: 60%;
+    height: 25%;
+    border: inherit;
+    cursor: pointer;
+    background: url('../img/servicos_pentagono.svg');
+    font-size: 0.6em;
+    padding: 17% 2% 0% 0%;
+    transition: background 0.3s ease-in;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
+
+.btn_web::before {
+    background-image: url('../img/icon/servico_2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+    width: 100%;
+    height: 90%;
+    display: inline-block;
+    position: relative;
+    top: -20%;
+}
+
 .btn_dgraf{
-    position: relative;
-    margin-top: 110%;
-    width: 50%;
-    height: 20%;
+    position: absolute;
+    margin-top: 70%;
+    width: 60%;
+    height: 25%;
+    border: inherit;
+    cursor: pointer;
+    background: url('../img/servicos_pentagono.svg');
+    font-size: 0.6em;
+    padding: 17% 2% 0% 0%;
+    transition: background 0.3s ease-in;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
+.btn_dgraf::before {
+    background-image: url('../img/icon/servico_3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+    width: 102%;
+    height: 90%;
+    display: inline-block;
+     position: relative;
+    top: -20%;
+}
+
 .btn_mdig{
+    position: absolute;
+    margin-top: 70%;
+    width: 60%;
+    height: 25%;
+    border: inherit;
+    cursor: pointer;
+    background: url('../img/servicos_pentagono.svg');
+    font-size: 0.6em;
+    padding: 17% 2% 0% 0%;
+    transition: background 0.3s ease-in;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.btn_mdig::before {
+    background-image: url('../img/icon/servico_4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+    width: 102%;
+    height: 90%;
+    display: inline-block;
     position: relative;
-    margin-top: 110%;
-    width: 50%;
-    height: 20%;
+    top: -20%;
 }
 
 .contato {
@@ -489,7 +655,12 @@ section:nth-child(7) {
 }
 
 .filosofia-title {
-  font-weight: 200;
+  font-size: 100%;
+  top: 37%;
+  left: 19%;
+  float: left;
+  padding: 0% 2% 2% 7%;
+  border-bottom: 10px solid #38CE8E;
 }
 
 .filosofia-title .bold {
@@ -497,16 +668,18 @@ section:nth-child(7) {
 }
 
 .objetivos-title {
-  font-weight: 200;
+  font-size: 100%;
+  top: 38%;
+  right: 19%;
+  padding: 0% 4% 2% 4%;
+  border-bottom: 10px solid #2176b8;
 }
 
 .objetivos-title .bold {
   font-weight: 700;
 }
 
-.informacoes-title {
-  font-weight: 200;
-}
+.informacoes-title {font-size: 100%;top: 35%;right: 6%;padding: 0% 17.5% 2% 8%;border-bottom: 10px solid #ff7a46;}
 
 .informacoes-title .bold {
   font-weight: 700;
@@ -652,4 +825,102 @@ width: 60%;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+.cnt {
+  border-radius: 50%;
+  
+}
+
+.computer-service {
+  background-image: url('../img/computer-service.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 50%;
+  height: 23.9%;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.oque_slide {
+  background-image: url('../img/icon/tablet.png');
+  width: 33%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-cell {
+  background: red;
+  width: 100%;
+  height: 100%;
+      cursor: url('../img/swipe-to-right.cur');
+}
+
+.carousel-cell:nth-child(2) {
+  background: yellow;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.serv {
+    height: 9em;
+    display: flex;
+}
+
+.serv div {
+  /* background: red; */
+}
+
+.serv div:nth-child(1) {
+  border-right: 4px solid grey;
+
+}
+
+.serv div:nth-child(2) {
+  border-right: 4px solid grey
+}
+.serv div:nth-child(3) {
+  border-right: 4px solid grey
+}
+.serv div:nth-child(4) {
+  
+}
+
+.serv-title {
+  font-weight: 200;
+  text-align: center;
+}
+
+.serv-title .bold {
+  font-weight: 700;
+
+}
+.serv-description {
+  text-align: center;
+  /* position: relative; */
+  /* bottom: 0; */
+  margin: 90% 0;
+}
+
+.serv-description::before {
+  content: "";
+  background-size: 100%;
+  width: 300px;
+  height: 300px;
+}
+
+.serv-description:nth-child(1) {
+  background-image: url('../img/web-design.png')
+}
+.serv-description:nth-child(2) {
+  
+}
+.serv-description:nth-child(3) {
+  
+}
+.serv-description:nth-child(4) {
+  
 }

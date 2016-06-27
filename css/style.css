@@ -888,3 +888,38 @@ width: 60%;
 .serv div:nth-child(4) {
   
 }
+
+.serv-title {
+  font-weight: 200;
+  text-align: center;
+}
+
+.serv-title .bold {
+  font-weight: 700;
+
+}
+.serv-description {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+
+.serv-description::before {
+  content: "";
+  background-size: 100%;
+  width: 300px;
+  height: 300px;
+}
+
+.serv-description:nth-child(1) {
+  background-image: url('../img/web-design.png')
+}
+.serv-description:nth-child(2) {
+  
+}
+.serv-description:nth-child(3) {
+  
+}
+.serv-description:nth-child(4) {
+  
+}
