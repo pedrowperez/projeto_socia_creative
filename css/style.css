@@ -198,7 +198,7 @@ section:nth-child(7) {
 
 
 .sobre{position: relative;width: 55%;height: 70%;display: inline-block;}
-.sobre h2 {display: initial;position: absolute;}
+.sobre h2 {display: initial;position: absolute;color: #cacaca;}
 
 
 .informacoes {
@@ -271,6 +271,22 @@ section:nth-child(7) {
     border: 9px solid #38CE8E;
     /* transition: margin 0.2s ease-in 0s; */
   }
+.description_info {
+  
+font-weight: 200;
+  
+position: relative;
+  
+top: 6%;
+  
+width: 75%;
+  
+left: 17%;
+}
+
+.description_info .bold {
+  font-weight: 700;
+}
 #info_info{
   position: absolute;
   display: none;
@@ -279,6 +295,7 @@ section:nth-child(7) {
   top: 5%;
   left: 10%;
   background: #333333;
+  background-image: url('../img/background-mission.png');
   border: 9px solid #ff7a46;
   border-image-slice: 1;
 }
@@ -290,7 +307,7 @@ section:nth-child(7) {
   top: 5%;
   left: 5%;
   border: 9px solid #2176B8;
-  background: url('../img/processo-operacional.svg') 100% center no-repeat;
+  background: url('../img/background-objetivo.png') center;
   transition-property: all;
 }
 
@@ -306,11 +323,30 @@ section:nth-child(7) {
   border-image-slice: 1;
 }
 
+.legenda-operacao {
+  
+width: 20%;
+  
+position: relative;
+  
+font-size: 0.45em;
+  
+top: 42vh;
+  
+float: right;
+  
+right: 5.5vh;
+  
+text-align: right;
+  
+opacity: 0.8;
+}
+
 .title_obj {
   font-size: 0.8em;
   font-weight: 200;
   position: absolute;
-  margin: 1.5% 7%;
+  margin: 1.5% 0%;
 }
 .title_obj .bold {
   font-weight: 700;
@@ -670,7 +706,7 @@ section:nth-child(7) {
 .objetivos-title {
   font-size: 100%;
   top: 38%;
-  right: 19%;
+  right: 18.5%;
   padding: 0% 4% 2% 4%;
   border-bottom: 10px solid #2176b8;
 }
@@ -679,7 +715,7 @@ section:nth-child(7) {
   font-weight: 700;
 }
 
-.informacoes-title {font-size: 100%;top: 35%;right: 6%;padding: 0% 17.5% 2% 8%;border-bottom: 10px solid #ff7a46;}
+.informacoes-title {font-size: 100%;top: 35%;right: 6%;padding: 0% 26.1% 2% 8%;border-bottom: 10px solid #ff7a46;}
 
 .informacoes-title .bold {
   font-weight: 700;
@@ -947,4 +983,43 @@ border-image-slice: 1;
   background-size: 100%;
   background-repeat: no-repeat;
   
+}
+
+.title_obj:after {
+  content: "";
+  display: inline-block;
+  background-image: url('../img/icon-objetivo.png');
+  width: 23em;
+  background-size: 90%;
+  height: 16.5em;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.student{
+    width: 400px;
+    margin: 0% auto;
+    position: relative;
+}
+.srvc_icon{
+    width: 29px;
+    position: absolute;
+}
+.openBookIcon{
+    top: 20%;
+    right: 0;
+}
+
+.title-filo {
+  font-weight: 200;
+  font-size: 0.5em;
+  position: relative;
+  top: 2vh;
+  width: 80%;
+  left: 10%;
+}
+
+.title-filo .bold {
+  font-weight: 700;
 }
