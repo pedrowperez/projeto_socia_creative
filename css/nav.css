@@ -15,8 +15,8 @@ a {
 .menuz-item, .menuz-open-button {
   background: #00bcd4;
   border-radius: 100%;
-  width: 120px;
-  height: 120px;
+  width: 16%;
+  height: 70%;
   margin-left: -40px;
   position: absolute;
   top: 20px;
@@ -67,6 +67,7 @@ a {
 }
 
 .menuz {
+  opacity: 0.6;
   position: fixed;
   left: 9%;
   top: 2%;

@@ -65,16 +65,17 @@ section:nth-child(7) {
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-flow: column nowrap;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-          z-index: 2;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  z-index: 2;
 }
 .nav {
   margin: 0 0 100px 30px;
+  display: none;
 }
 .nav__counter {
   font-size: 24px;
