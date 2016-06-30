@@ -1,11 +1,14 @@
 body {
-overflow: hidden;
+	
+}overflow: hidden;
 }
  @font-face {
     font-family: 'Lato', sans-serif;
     src: url("https://fonts.googleapis.com/css?family=Lato:400,300,700");
 }
-}
+
+.flickity-viewport{display:none;}
+
 .wrapper {
   min-height: 100vh;
   font-family: 'Lato', sans-serif;
