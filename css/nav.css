@@ -7,14 +7,14 @@ a {
 }
 
 .menuz-item, .menuz-open-button {
-  background: #00bcd4;
+  background: #4c4c4c;
   border-radius: 100%;
   width: 16%;
   height: 70%;
-  margin-left: -40px;
+  margin-left: -5px;
   position: absolute;
   top: 20px;
-  color: white;
+  color: #cacaca;
   text-align: center;
   line-height: 80px;
   transform: translate3d(0, 0, 0);
