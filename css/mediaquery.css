@@ -1,15 +1,198 @@
-@media screen and (max-width: 320px) {
-
+@media screen and (min-width: 320px) {
+#world {
+    top: -20vh;
+    left: 15%;
+}
   .main-title:before {
   width: 60px !important;
   left: -2em !important;
   top: -1.6em !important;
   }
-      
-   }
-
-@media screen and (max-width: 768px) {
+  .menuz {
+  display: block;
 }
+.objetivos-title {
+    padding: 0% 7% 2% 8% !important;
+    right: 31% !important;
+}
+.filosofia-title{
+left: 33% !important;
+font-size: 0.34em !important;
+}
+.description_info {
+    font-size: 0.35em !important;
+    top: 50% !important;
+}
+.informacoes-title {
+    padding: 0% 3.1% 2% 8% !important;
+}
+#info_info {
+top: -10% !important;
+}
+.intro {}
+}
+@media screen and (min-width: 360px) {
+#world  {
+    top: 0;
+    left: 30%;
+}
+.intro {
+    top: -23vh !important;
+    left: 0%;
+}
+.informacoes-title {
+  padding: 0% 10.1% 2% 6.4% !important;
+  font-size: 0.37em !important;
+}
+.filosofia-title {
+padding: 0% 9% 2% 5% !important;
+left: 33% !important;
+}
+.objetivos-title {
+    padding: 0% 6% 2% 16% !important;
+    right: 32% !important;
+}
+.description_info{
+    font-size: 0.42em !important;
+    top: 55% !important;
+}
+#info_info {
+top: -10% !important;
+}
+}
+
+@media screen and (min-width: 375px) {
+#world {}
+.intro {}
+.informacoes-title {
+  
+font-size: 0.38em !important;
+}
+.filosofia-title {
+
+}
+.description_info{}
+#info_info {}
+}
+
+
+@media screen and (min-width: 411px) { 
+ #world {}
+.intro { 
+}
+  #btn_inf {
+
+    
+width: 16vh !important;
+  }
+  #btn_fi {
+    
+width: 16vh !important;
+  }
+
+  .informacoes-title {
+    
+font-size: 0.4em !important;
+    
+padding: 0% 15.1% 2% 8% !important;
+  }
+  .filosofia-title {
+padding: 0% 9% 2% 11% !important;
+left: 30% !important;
+font-size: 0.37em !important;
+}
+#btn_obj {
+  
+width: 16vh !important;
+}
+.objetivos-title {
+  
+font-size: 0.41em !important;
+  
+padding: 0% 9% 2% 13% !important;
+  
+right: 29% !important;
+}
+.description_info {}
+#info_info {}
+}
+@media screen and (min-width: 414px) {
+  #world {}
+  .informacoes-title {
+    padding: 0% 13% 2% 6% !important;
+  }
+  .objetivos-title {
+    right: 33% !important;
+
+}
+.intro { }
+  .filosofia-title {
+
+left: 35% !important;
+font-size: 0.36em !important;
+padding: 0% 9% 2% 9% !important;
+}
+.description_info {
+    font-size: 0.47em !important;
+}
+  #info_info {}
+  }
+  @media screen and (min-width: 435px) {
+#world {
+}
+  .objetivos-title {
+    right: 33% !important;
+
+}
+  .informacoes-title {
+    
+font-size: 0.4em !important;
+    
+padding: 0% 15.1% 2% 8% !important;
+  }
+  .intro {}
+  .filosofia-title{
+   left: 34% !important;
+   }
+   .description_info {
+    font-size: 0.5em !important;
+}
+   #info_info {
+    
+   }
+  }
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .menuz-item, .menuz-open-button {
+    width: 12% !important;
+}
+  .main-title {
+    font-size: 1.4em !important;
+}
+  .main-description {
+    left: 60.4% !important;
+    font-size: 1.05em !important;
+    padding-top: 40px !important;
+}
+
+
+}
+@media screen and (max-width: 800px) and (orientation: landscape) {
+.menuz-item, .menuz-open-button {width: 9% !important;height: 120% !important;}
+.main-title {
+    font-size: 0.9em !important;
+}
+.main-description {
+    padding-top: 40px !important;
+    left: 59.5% !important;
+    font-size: 0.65em !important;
+}
+
+}
+@media screen and (max-width: 800px) {
+
  @font-face {
     font-family: 'Lato', sans-serif;
     src: url("https://fonts.googleapis.com/css?family=Lato:400,300,700");
@@ -173,7 +356,9 @@ section:nth-child(7) {
     display: inline-block;
     
 }
-
+.menuz {
+  display: block;
+}
 #home_icon { 
      background: url('../img/icon/home.png') no-repeat;
      background-size: 100%; 
@@ -309,7 +494,7 @@ font-size: 100%;
   left: 10%;
   background: #333333;
   background-image: url('../img/background-mission.png');
-  border: 9px solid #ff7a46;
+  border: 5px solid #ff7a46;
   border-image-slice: 1;
 }
 #info_obj{
@@ -746,9 +931,9 @@ left: 60%;
 }
 
 .objetivos-title {
-  font-size: 95%;
+  font-size: 100%;
   top: 20%;
-  right: 31.5%;
+  right: 29.5%;
   padding: 0% 5% 2% 2%;
   border-bottom: 5px solid #2176b8;
 }

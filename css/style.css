@@ -1,5 +1,5 @@
 body {
-overflow: hidden;
+overflow: hidden;
 }
  @font-face {
     font-family: 'Lato', sans-serif;
@@ -1021,4 +1021,8 @@ border-image-slice: 1;
 
 .title-filo .bold {
   font-weight: 700;
+}
+
+.menuz {
+  display: none;
 }
