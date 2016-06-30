@@ -198,7 +198,7 @@ section:nth-child(7) {
 }
 
 
-.sobre{position: relative;width: 55%;height: 70%;display: inline-block;}
+.sobre{position: relative;width: 100%;height: 75%;display: inline-block;}
 .sobre h2 {display: initial;position: absolute;color: #cacaca;}
 
 
@@ -231,8 +231,8 @@ section:nth-child(7) {
   border-image-slice: 1;
   }
 #btn_inf  {
-    width: 22%;
-    height: 100%;
+    width: 27%;
+    height: 65%;
     background-color: #333333;
     background-image: url('../img/icon/informacoes.png');
     background-position: center;
@@ -247,8 +247,8 @@ section:nth-child(7) {
       box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
     }
 #btn_obj{
-    width: 22%;
-    height: 100%;
+    width: 28%;
+    height: 65%;
     background-color: #333333;
     background-image: url('../img/icon/objetivos.png');
     background-position: center;
@@ -260,8 +260,8 @@ section:nth-child(7) {
     /* transition: margin 0.2s ease-in 0s; */
   }
 #btn_fi{
-    width: 22%;
-    height: 100%;
+    width: 27%;
+    height: 65%;
     background-color: #333333;
     background-image: url('../img/icon/filosofia.png');
     background-position: center;
@@ -278,11 +278,13 @@ font-weight: 200;
   
 position: relative;
   
-top: 6%;
+top: 15%;
   
-width: 75%;
+width: 80%;
   
-left: 17%;
+left: 10%;
+  
+font-size: 100%;
 }
 
 .description_info .bold {
@@ -326,17 +328,17 @@ left: 17%;
 
 .legenda-operacao {
   
-width: 20%;
+width: 37%;
   
 position: relative;
   
-font-size: 0.45em;
+font-size: 0.85em;
   
-top: 42vh;
+top: 45vh;
   
 float: right;
   
-right: 5.5vh;
+right: 3.5vh;
   
 text-align: right;
   
@@ -344,10 +346,10 @@ opacity: 0.8;
 }
 
 .title_obj {
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: 200;
   position: absolute;
-  margin: 1.5% 0%;
+  margin: 1.5% -5%;
 }
 .title_obj .bold {
   font-weight: 700;
@@ -669,18 +671,18 @@ opacity: 0.8;
 }
 
 .contato {
-  width: 80%;
-  height: 60%;
-
-
+  width: 100%;
+  height: 100%;
 }
 .titlecontact {
   font-weight: 200;
+  font-size: 4em;
 }
 .descriptioncontact {
  font-weight: 700;
  position: relative;
- top: -3%;
+ top: -1%;
+ font-size: 1.5em;
 }
 
 .titlecontact .bold {
@@ -693,7 +695,7 @@ opacity: 0.8;
 
 .filosofia-title {
   font-size: 100%;
-  top: 37%;
+  top: 38%;
   left: 19%;
   float: left;
   padding: 0% 2% 2% 7%;
@@ -705,18 +707,20 @@ opacity: 0.8;
 }
 
 .objetivos-title {
-  font-size: 100%;
-  top: 38%;
-  right: 18.5%;
-  padding: 0% 4% 2% 4%;
+  font-size: 95%;
+  top: 33%;
+  right: 23.5%;
+  padding: 0% 4% 2% 0%;
   border-bottom: 10px solid #2176b8;
 }
-
+.title_telefone {
+  font-size: 1.89em;
+}
 .objetivos-title .bold {
   font-weight: 700;
 }
 
-.informacoes-title {font-size: 100%;top: 35%;right: 6%;padding: 0% 26.1% 2% 8%;border-bottom: 10px solid #ff7a46;}
+.informacoes-title {top: 20%;right: 6%;padding: 0% 17.1% 2% 8%;border-bottom: 10px solid #ff7a46;}
 
 .informacoes-title .bold {
   font-weight: 700;
@@ -725,6 +729,7 @@ opacity: 0.8;
 .title_location {
   font-weight: 200;
   margin-bottom: -10px;
+  font-size: 2em;
 }
 
 .title_location:before {
@@ -745,6 +750,7 @@ left: -75px;
   font-weight: 200;
   margin-top: 30px;
   margin-bottom: 20px;
+  font-size: 1.49em;
 }
 .title_email:before {
 display: inline-block;
@@ -774,15 +780,15 @@ top: 7px;
 .title_telefone:before {display: inline-block;width: 30px;height: 50px;background-image: url('../img/contato/telefone.png');background-position: center;background-repeat: no-repeat;background-size: 100%;content: "";position: relative;left: -65px;top: 10px;}
 
 .formulario {
-  width: 50%;
-  height: 100%;
-  float: left;
+  width: 100%;
+  height: 25%;
+  /* float: left; */
 }
 .informacoes_formulario {
-  width: 50%;
-  height: 100%;
-  float: right;
+  width: 95%;
+  height: 30%;
   padding-top: 80px;
+  margin: 10% 0px;
 }
 
 .formcontato {
@@ -810,12 +816,12 @@ top: 7px;
 
 .divisoriainfo {
   
-width: 60%;
+width: 100%;
 }
 
 .mediasocial {
-  width: 70px;
-  height: 70px;
+  width: 110px;
+  height: 110px;
   display: inline-block;
   margin-left: 15px;
   background: red;
@@ -836,11 +842,12 @@ width: 60%;
 
 .copyright {
   font-weight: 200;
+  font-size: 1.5em;
 }
 .slides {
   position: relative;
   height: 100%;
-  width: 79.8%;
+  width: 99.8%;
 }
 
 .prev {
@@ -903,7 +910,7 @@ width: 60%;
 }
 
 .serv {
-    height: 9em;
+    height: 34em;
     display: flex;
 }
 
@@ -913,7 +920,7 @@ width: 60%;
 
 .serv div:nth-child(1) {
 
-border-right: 5px solid transparent;
+/* border-right: 5px solid transparent; */
 
 -moz-border-image: -moz-linear-gradient(left, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
 
@@ -921,22 +928,22 @@ border-right: 5px solid transparent;
 
 border-image: linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%), linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
 
-border-image-slice: 1;
+/* border-image-slice: 1; */
 }
 
 .serv div:nth-child(2) {
-   border-right: 5px solid transparent;
+   /* border-right: 5px solid transparent; */
    -moz-border-image: -moz-linear-gradient(left, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
    -webkit-border-image: -webkit-linear-gradient(bottom, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
    border-image: linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%), linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
-   border-image-slice: 1;
+   /* border-image-slice: 1; */
 }
 .serv div:nth-child(3) {
-   border-right: 5px solid transparent;
+   /* border-right: 5px solid transparent; */
    -moz-border-image: -moz-linear-gradient(left, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
    -webkit-border-image: -webkit-linear-gradient(top, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
    border-image: linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%), linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
-   border-image-slice: 1;
+   /* border-image-slice: 1; */
 }
 .serv div:nth-child(4) {
   
@@ -990,7 +997,7 @@ border-image-slice: 1;
   content: "";
   display: inline-block;
   background-image: url('../img/icon-objetivo.png');
-  width: 23em;
+  width: 22em;
   background-size: 90%;
   height: 16.5em;
   position: relative;
@@ -1000,7 +1007,7 @@ border-image-slice: 1;
 
 .student{
     width: 400px;
-    margin: 0% auto;
+    margin: 25% auto;
     position: relative;
 }
 .srvc_icon{
@@ -1014,11 +1021,11 @@ border-image-slice: 1;
 
 .title-filo {
   font-weight: 200;
-  font-size: 0.5em;
+  font-size: 0.9em;
   position: relative;
   top: 2vh;
-  width: 80%;
-  left: 10%;
+  width: 90%;
+  left: 5%;
 }
 
 .title-filo .bold {
