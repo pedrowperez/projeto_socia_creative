@@ -1,10 +1,26 @@
-
 @media screen and (min-width: 320px) {
-.title-filo {
+#info_obj {
+    top: -10% !important;
 }
-  #world {
+.legenda-operacao {
+    font-size: 0.25em !important;
+}
+.title_obj {
+    font-size: 0.23em !important;
+}
+.student {
+    width: 90% !important;
+    margin: 8% auto !important;
+}
+#info_fimp {
+    top: -10% !important;
+}
+.title-filo {
+    font-size: 0.26em !important;
+}
+#world {
     top: -20vh;
-    left: 15%;
+    left: 30%;
 }
   .main-title:before {
   width: 60px !important;
@@ -24,7 +40,7 @@ font-size: 0.34em !important;
 }
 .description_info {
     font-size: 0.35em !important;
-    top: 50% !important;
+    top: 49% !important;
 }
 .informacoes-title {
     padding: 0% 3.1% 2% 8% !important;
@@ -34,17 +50,81 @@ top: -10% !important;
 }
 .intro {}
 }
-@media screen and (min-width: 360px) {
 
+@media screen and (max-width: 320px) and (orientation: landscape) {
+#info_obj {
+    top: -10% !important;
+}
+.legenda-operacao {
+    font-size: 0.25em !important;
+}
+.title_obj {
+    font-size: 0.23em !important;
+}
+.student {
+    width: 90% !important;
+    margin: 8% auto !important;
+}
+#info_fimp {
+    top: -10% !important;
+}
+.title-filo {
+    font-size: 0.26em !important;
+}
+#world {
+    top: -20vh;
+    left: 30%;
+}
+  .main-title:before {
+  width: 60px !important;
+  left: -2em !important;
+  top: -1.6em !important;
+  }
+  .menuz {
+  display: block;
+}
+.objetivos-title {
+    padding: 0% 7% 2% 8% !important;
+    right: 31% !important;
+}
+.filosofia-title{
+left: 33% !important;
+font-size: 0.34em !important;
+}
+.description_info {
+    font-size: 0.35em !important;
+    top: 49% !important;
+}
+.informacoes-title {
+    padding: 0% 3.1% 2% 8% !important;
+}
+#info_info {
+top: -10% !important;
+}
+.intro {}
+}
+
+@media screen and (min-width: 360px) and (orientation: landscape) {
+#info_obj {}
+.legenda-operacao {}
+.title_obj {
+    font-size: 0.28em !important;
+}
+.student {
+    width: 80% !important;
+    margin: 10% auto !important;
+}
+#info_fimp {}
+.title-filo {
+    font-size: 0.3em !important;
+}
 #world  {
-    top: 0;
+    top: 7vh;
     left: 30%;
 }
 .intro {
     top: -23vh !important;
     left: 0%;
-}
-.title-filo {
 }
 .informacoes-title {
   padding: 0% 10.1% 2% 6.4% !important;
@@ -66,8 +146,56 @@ left: 33% !important;
 top: -10% !important;
 }
 }
+@media screen and (min-width: 360px) {
+#info_obj {}
+.legenda-operacao {}
+.title_obj {
+    font-size: 0.28em !important;
+}
+.student {
+    width: 80% !important;
+    margin: 10% auto !important;
+}
+#info_fimp {}
+.title-filo {
+    font-size: 0.3em !important;
+}
+#world  {
+    top: 4vh;
+    left: 30%;
+}
+.intro {
+    top: -23vh !important;
+    left: 0%;
+}
+.informacoes-title {
+  padding: 0% 10.1% 2% 6.4% !important;
+  font-size: 0.37em !important;
+}
+.filosofia-title {
+padding: 0% 9% 2% 5% !important;
+left: 33% !important;
+}
+.objetivos-title {
+    padding: 0% 6% 2% 16% !important;
+    right: 32% !important;
+}
+.description_info{
+    font-size: 0.42em !important;
+    top: 50% !important;
+}
+#info_info {
+top: -10% !important;
+}
+}
 
 @media screen and (min-width: 375px) {
+#info_obj {}
+.legenda-operacao {}
+.title_obj {}
+.student {}
+#info_fimp {}
+.title-filo {}
 #world {}
 .intro {}
 .informacoes-title {
@@ -79,12 +207,24 @@ font-size: 0.38em !important;
 }
 .description_info{}
 #info_info {}
-.title-filo {
-}
 }
 
 
 @media screen and (min-width: 411px) { 
+#info_obj {}
+.legenda-operacao {}
+.title_obj {
+    font-size: 0.33em !important;
+}
+.student {
+    width: 70% !important;
+    margin: 5% auto !important;
+}
+#info_fimp {}
+.title-filo {
+    font-size: 0.38em !important;
+    top: 1vh !important;
+}
  #world {}
 .intro { 
 }
@@ -100,9 +240,65 @@ width: 16vh !important;
 
   .informacoes-title {
     
-font-size: 0.4em !important;
+font-size: 0.37em !important;
     
-padding: 0% 15.1% 2% 8% !important;
+padding: 0% 18.1% 2% 8% !important;
+  }
+  .filosofia-title {padding: 0% 12% 2% 10% !important;left: 30% !important;font-size: 0.37em !important;}
+#btn_obj {
+  
+width: 16vh !important;
+}
+.objetivos-title {
+  
+font-size: 0.41em !important;
+  
+padding: 0% 9% 2% 16% !important;
+  
+right: 29% !important;
+}
+.description_info {}
+#info_info {}
+}
+
+@media screen and (min-width: 411px) and (orientation: landscape) { 
+
+#info_obj {}
+.legenda-operacao {}
+.title_obj {
+    font-size: 0.33em !important;
+}
+.student {
+    width: 70% !important;
+    margin: 5% auto !important;
+}
+#info_fimp {}
+.title-filo {
+    font-size: 0.38em !important;
+    top: 1vh !important;
+}
+ #world {
+    left: 290% !important;
+    top: 11vh;
+}
+.intro { 
+}
+  #btn_inf {
+width: 20vh !important;
+height: 20vh !important;
+}
+  #btn_fi {
+    
+width: 20vh !important;
+    
+height: 20vh !important;
+  }
+
+  .informacoes-title {
+    
+font-size: 0.37em !important;
+    
+padding: 0% 18.1% 2% 8% !important;
   }
   .filosofia-title {
 padding: 0% 9% 2% 11% !important;
@@ -111,7 +307,9 @@ font-size: 0.37em !important;
 }
 #btn_obj {
   
-width: 16vh !important;
+width: 20vh !important;
+  
+height: 20vh !important;
 }
 .objetivos-title {
   
@@ -123,38 +321,52 @@ right: 29% !important;
 }
 .description_info {}
 #info_info {}
-.title-filo {
-}
-}
+} 
+  
 @media screen and (min-width: 414px) {
-  #world {}
-  .informacoes-title {
-    padding: 0% 13% 2% 6% !important;
+#info_obj {}
+.legenda-operacao {}
+.title_obj {}
+.student {
+    width: 90% !important;
+    margin: 10% auto !important;
+}
+#info_fimp {}
+.title-filo {}
+.informacoes-title {
+    padding: 0% 14% 2% 6% !important;
+    font-size: 0.4em !important;
   }
   .objetivos-title {
-    right: 33% !important;
-
+    right: 35% !important;
+    top: 7% !important;
+    font-size: 0.44em !important;
+    padding: 0% 7% 2% 8% !important;
 }
 .intro { }
   .filosofia-title {
-
-left: 35% !important;
-font-size: 0.36em !important;
-padding: 0% 9% 2% 9% !important;
+left: 34% !important;
+font-size: 0.42em !important;
+padding: 0% 6% 2% 6% !important;
 }
-.description_info {
-    font-size: 0.47em !important;
-}
+.description_info {}
   #info_info {}
-  .title-filo {
-}
   }
   @media screen and (min-width: 435px) {
-#world {
+#info_obj {}
+.legenda-operacao {
+    top: 50vh !important;
 }
+.title_obj {}
+.student {
+    width: 90% !important;
+}
+#info_fimp {
+    top: -8% !important;
+}
+.title-filo {}
   .objetivos-title {
-    right: 33% !important;
-
+    right: 35% !important;
 }
   .informacoes-title {
     
@@ -166,14 +378,59 @@ padding: 0% 15.1% 2% 8% !important;
   .filosofia-title{
    left: 34% !important;
    }
-   .description_info {
-    font-size: 0.5em !important;
-}
+   .description_info {}
    #info_info {
     
    }
-   .title-filo {
+  }
+  @media screen and (min-width: 435px) and (orientation: landscape) {
+#info_obj {}
+.legenda-operacao {
+    top: 50vh !important;
 }
+.title_obj {}
+.student {
+    width: 90% !important;
+}
+#info_fimp {
+    top: -8% !important;
+}
+.title-filo {}
+  .objetivos-title {
+    padding: 0% 18% 1% 37% !important;
+    font-size: 0.5em !important;
+    right: 12% !important;
+    top: 4% !important;
+}
+  .informacoes-title {
+    
+font-size: 0.5em !important;
+    
+padding: 0% 12.1% 1% 8% !important;
+    
+left: 12% !important;
+    
+top: -5% !important;
+  }
+  .intro {}
+  .filosofia-title{
+   left: 11% !important;
+   top: 6% !important;
+   font-size: 0.5em !important;
+   padding: 0% 25% 1% 25% !important;
+   }
+   .description_info {
+    top: 55% !important;
+    font-size: 0.33em !important;
+}
+   #info_info {
+    
+top: 3% !important;
+    
+left: 4% !important;
+    
+width: 95% !important;
+   }
   }
 @media only screen 
   and (min-device-width: 768px) 
@@ -205,29 +462,13 @@ padding: 0% 15.1% 2% 8% !important;
 }
 
 }
-@media screen and (max-width: 800px) { }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 
  @font-face {
     font-family: 'Lato', sans-serif;
     src: url("https://fonts.googleapis.com/css?family=Lato:400,300,700");
 }
 }
-
-.main-carousel{
-    /* position: absolute; */
-    /* width: 100%; */
-    /* height: 100%; */
-    /* top: -70%; */
-}
-
-.carousel-cell {
-  /* width: 100%; */ /* full width */
-  /* height: 160px; */ /* height of carousel */
-  /* margin-right: 10px; */
-}
-
 .wrapper {
   min-height: 100vh;
   font-family: 'Lato', sans-serif;
@@ -276,7 +517,6 @@ section:nth-child(7) {
   background: #333333;
 }
 
-<<<<<<< HEAD
 .nav__wrapper {
   position: fixed;
   height: 100%;
@@ -297,28 +537,6 @@ section:nth-child(7) {
 .nav {
   margin: 0 0 100px 30px;
   display: none;
-=======
-.nav__wrapper {
-  position: fixed;
-  height: 100%;
-  padding: 30px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  z-index: 2;
-}
-.nav {
-  margin: 0 0 100px 30px;
-  display: none;
->>>>>>> origin/master
 }
 .nav__counter {
   font-size: 24px;
@@ -409,13 +627,9 @@ section:nth-child(7) {
     display: inline-block;
     
 }
-<<<<<<< HEAD
 .menuz {
   display: block;
 }
-=======
-
->>>>>>> origin/master
 #home_icon { 
      background: url('../img/icon/home.png') no-repeat;
      background-size: 100%; 
@@ -448,15 +662,9 @@ section:nth-child(7) {
 }
 
 
-<<<<<<< HEAD
 .sobre{position: relative;width: 100%;height: 75%;top: 10%;display: inline-block;}
 .sobre h2 {
     font-size: 35%;
-=======
-.sobre{position: relative;width: 100%;height: 75%;display: inline-block;}
-.sobre h2 {
-    font-size: 29%;
->>>>>>> origin/master
 }
 
 
@@ -489,13 +697,8 @@ section:nth-child(7) {
   border-image-slice: 1;
   }
 #btn_inf  {
-<<<<<<< HEAD
     width: 35%;
     height: 70%;
-=======
-    width: 27%;
-    height: 65%;
->>>>>>> origin/master
     background-color: #333333;
     background-image: url('../img/icon/informacoes.png');
     background-position: center;
@@ -503,24 +706,15 @@ section:nth-child(7) {
     background-repeat: no-repeat;
     border-radius: 50%;
     float: left;
-<<<<<<< HEAD
     border: 5px solid #ff7a46;
-=======
-    border: 9px solid #ff7a46;
->>>>>>> origin/master
     /* transition: margin 0.2s ease-in 0s; */
     }
     #btn_inf:focus {
       box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
     }
 #btn_obj{
-<<<<<<< HEAD
     width: 35%;
     height: 70%;
-=======
-    width: 28%;
-    height: 65%;
->>>>>>> origin/master
     background-color: #333333;
     background-image: url('../img/icon/objetivos.png');
     background-position: center;
@@ -528,21 +722,12 @@ section:nth-child(7) {
     background-repeat: no-repeat;
     border-radius: 50%;
     float: right;
-<<<<<<< HEAD
     border: 5px solid #2176B8;
     /* transition: margin 0.2s ease-in 0s; */
   }
 #btn_fi{
     width: 35%;
     height: 70%;
-=======
-    border: 9px solid #2176B8;
-    /* transition: margin 0.2s ease-in 0s; */
-  }
-#btn_fi{
-    width: 27%;
-    height: 65%;
->>>>>>> origin/master
     background-color: #333333;
     background-image: url('../img/icon/filosofia.png');
     background-position: center;
@@ -550,11 +735,7 @@ section:nth-child(7) {
     background-repeat: no-repeat;
     border-radius: 50%;
     float: left;
-<<<<<<< HEAD
     border: 5px solid #38CE8E;
-=======
-    border: 9px solid #38CE8E;
->>>>>>> origin/master
     /* transition: margin 0.2s ease-in 0s; */
   }
 .description_info {
@@ -584,11 +765,7 @@ font-size: 100%;
   left: 10%;
   background: #333333;
   background-image: url('../img/background-mission.png');
-<<<<<<< HEAD
   border: 5px solid #ff7a46;
-=======
-  border: 9px solid #ff7a46;
->>>>>>> origin/master
   border-image-slice: 1;
 }
 #info_obj{
@@ -598,7 +775,7 @@ font-size: 100%;
   height: 105%;
   top: 5%;
   left: 5%;
-  border: 9px solid #2176B8;
+  border: 5px solid #2176B8;
   background: url('../img/background-objetivo.png') center;
   transition-property: all;
 }
@@ -611,7 +788,7 @@ font-size: 100%;
   top: 4%;
   left: 10%;
   background: #333333;
-  border: 9px solid #38CE8E;
+  border: 5px solid #38CE8E;
   border-image-slice: 1;
 }
 
@@ -633,7 +810,6 @@ text-align: right;
   
 opacity: 0.8;
 }
-<<<<<<< HEAD
 .main-description{
   
 font-size: 0.5em;
@@ -662,9 +838,6 @@ text-align: right;
   
 left: 60%;
 }
-=======
-
->>>>>>> origin/master
 .title_obj {
   font-size: 0.9em;
   font-weight: 200;
@@ -674,7 +847,6 @@ left: 60%;
 .title_obj .bold {
   font-weight: 700;
 }
-<<<<<<< HEAD
 .servicos{
     z-index: 1;
     
@@ -683,16 +855,6 @@ left: 60%;
     align-items: center;
     height: 100%;
     width: 143%;
-=======
-.servicos{
-    z-index: 1;
-    
-    
-    ]: inline-block
-    align-items: center;
-    height: 100%;
-    width: 100%;
->>>>>>> origin/master
 }
 .branding{
     position: relative;
@@ -1006,7 +1168,6 @@ left: 60%;
   width: 100%;
   height: 100%;
 }
-<<<<<<< HEAD
 .titlecontact {
   font-weight: 200;
   font-size: 0.4em;
@@ -1016,17 +1177,6 @@ left: 60%;
  position: relative;
  top: -1%;
  font-size: 0.5em;
-=======
-.titlecontact {
-  font-weight: 200;
-  font-size: 0.4em;
-}
-.descriptioncontact {
- font-weight: 700;
- position: relative;
- top: -1%;
- font-size: 0.5em;
->>>>>>> origin/master
 }
 
 .titlecontact .bold {
@@ -1039,27 +1189,18 @@ left: 60%;
 
 .filosofia-title {
   font-size: 100%;
-<<<<<<< HEAD
   top: 15%;
   left: 30%;
   float: left;
   text-align: right;
   padding: 0% 2% 2% 5%;
   border-bottom: 5px solid #38CE8E;
-=======
-  top: 38%;
-  left: 19%;
-  float: left;
-  padding: 0% 2% 2% 7%;
-  border-bottom: 10px solid #38CE8E;
->>>>>>> origin/master
 }
 
 .filosofia-title .bold {
   font-weight: 700;
 }
 
-<<<<<<< HEAD
 .objetivos-title {
   font-size: 100%;
   top: 20%;
@@ -1070,44 +1211,21 @@ left: 60%;
 .title_telefone {
   
 font-size: 0.5em;
-=======
-.objetivos-title {
-  font-size: 95%;
-  top: 33%;
-  right: 23.5%;
-  padding: 0% 4% 2% 0%;
-  border-bottom: 10px solid #2176b8;
-}
-.title_telefone {
-  
-font-size: 0.5em;
->>>>>>> origin/master
 }
 .objetivos-title .bold {
   font-weight: 700;
 }
 
-<<<<<<< HEAD
 .informacoes-title {top: 15%;right: 0%;padding: 0% 10.1% 2% 8%;border-bottom: 5px solid #ff7a46;}
-=======
-.informacoes-title {top: 20%;right: 6%;padding: 0% 17.1% 2% 8%;border-bottom: 10px solid #ff7a46;}
->>>>>>> origin/master
 
 .informacoes-title .bold {
   font-weight: 700;
 }
 
-<<<<<<< HEAD
 .title_location {
   font-weight: 200;
   margin-bottom: -10px;
   font-size: 0.5em;
-=======
-.title_location {
-  font-weight: 200;
-  margin-bottom: -10px;
-  font-size: 0.5em;
->>>>>>> origin/master
 }
 
 .title_location:before {
@@ -1124,19 +1242,11 @@ left: -75px;
 }
 
 
-<<<<<<< HEAD
 .title_email {
   font-weight: 200;
   margin-top: 30px;
   margin-bottom: 20px;
   font-size: 0.5em;
-=======
-.title_email {
-  font-weight: 200;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  font-size: 0.5em;
->>>>>>> origin/master
 }
 .title_email:before {
 display: inline-block;
@@ -1170,19 +1280,11 @@ top: 7px;
   height: 25%;
   /* float: left; */
 }
-<<<<<<< HEAD
 .informacoes_formulario {
   width: 95%;
   height: 30%;
   padding-top: 80px;
   margin: 10% 0px;
-=======
-.informacoes_formulario {
-  width: 95%;
-  height: 30%;
-  padding-top: 80px;
-  margin: 10% 0px;
->>>>>>> origin/master
 }
 
 .formcontato {
@@ -1234,15 +1336,9 @@ width: 100%;
   background-size: 100%;
 }
 
-<<<<<<< HEAD
 .copyright {
   font-weight: 200;
   font-size: 0.5;
-=======
-.copyright {
-  font-weight: 200;
-  font-size: 0.5;
->>>>>>> origin/master
 }
 .slides {
   position: relative;
@@ -1294,7 +1390,6 @@ width: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
-<<<<<<< HEAD
 .carousel-cell {
   background: red;
   width: 100%;
@@ -1314,34 +1409,12 @@ width: 100%;
     /* height: 34em; */
     display: flex;
     position: relative;
-=======
-.carousel-cell {
-  /* background: red; */
-  /* width: 100%; */
-  /* height: 100%; */
-  cursor: url('../img/swipe-to-right.cur');
-}
-
-.carousel-cell:nth-child(2) {
-  background: yellow;
-}
-
-.carousel {
-  /* width: 100%; */
-}
-
-.serv {
-    height: 9.7em;
-    display: none;
-    position: relative;
->>>>>>> origin/master
 }
 
 .serv div {
   /* background: red; */
 }
 
-<<<<<<< HEAD
 .serv div:nth-child(1) {
 
 /* border-right: 5px solid transparent; */
@@ -1373,44 +1446,6 @@ border-image: linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%), 
   
 }
 
-=======
-.serv div:nth-child(1) {
-display: none;
-/* border-right: 5px solid transparent; */
--moz-border-image: -moz-linear-gradient(left, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
--webkit-border-image: -webkit-linear-gradient(top, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
-border-image: linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%), linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
-/* border-image-slice: 1; */
-position: relative;
-width: 50%;
-height: 50%;
-float: left;
-}
-
-.serv div:nth-child(2) {
-   display: none;
-   /* border-right: 5px solid transparent; */
-   -moz-border-image: -moz-linear-gradient(left, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
-   -webkit-border-image: -webkit-linear-gradient(bottom, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
-   border-image: linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%), linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
-   /* border-image-slice: 1; */
-}
-.serv div:nth-child(3) {
-   display: none;
-   /* border-right: 5px solid transparent; */
-   -moz-border-image: -moz-linear-gradient(left, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
-   -webkit-border-image: -webkit-linear-gradient(top, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
-   border-image: linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%), linear-gradient(to right, #ff7a46 0%, #2176B8 50%, #38CE8E 100%);
-   /* border-image-slice: 1; */
-}
-.serv div:nth-child(4) {
-  
-display: none;
-}
-
-.serv div:nth-child(5){display: none;}
-
->>>>>>> origin/master
 .serv-title {font-size: 20%;}
 
 .serv-title .bold {
@@ -1433,21 +1468,12 @@ display: none;
   background-size: 100%;
   background-repeat: no-repeat;
 }
-<<<<<<< HEAD
 .col-sm-3 h4:nth-child(2) {
   background-image: url('../img/responsive-devices.png');
   background-size: 85%;
   background-repeat: no-repeat;
   background-position: center 0.55em;
   font-size: 15%;
-=======
-.col-sm-3 h4:nth-child(2) {
-  background-image: url('../img/responsive-devices.png');
-  background-size: 85%;
-  background-repeat: no-repeat;
-  background-position: center 0.55em;
-  font-size: 15%;
->>>>>>> origin/master
 }
 .col-sm-3 h4:nth-child(3) {
   background-image: url('../img/customizable.png');
@@ -1475,7 +1501,7 @@ display: none;
 }
 
 .student{
-    width: 400px;
+    width: 100%;
     margin: 25% auto;
     position: relative;
 }

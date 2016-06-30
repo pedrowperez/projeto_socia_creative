@@ -118,37 +118,37 @@ a {
 }
 .menuz-open:checked ~ .menuz-item:nth-child(3) {
   transition-duration: 190ms;
-  transform: translate3d(0, 70px, 0);
+  transform: translate3d(0, 80px, 0);
   background: url('../img/icon/home.png') center no-repeat;
-  background-size: 60%;
+  background-size: 70%;
 }
 .menuz-open:checked ~ .menuz-item:nth-child(4) {
   transition-duration: 290ms;
-  transform: translate3d(0, 140px, 0);
-  background: url('../img/icon/sobre.png') center no-repeat;
-  background-size: 60%;
+  transform: translate3d(0, 150px, 0);
+  background: url('../img/icon/sobre.png') no-repeat center;
+  background-size: 65%;
 }
 .menuz-open:checked ~ .menuz-item:nth-child(5) {
   transition-duration: 390ms;
-  transform: translate3d(0, 210px, 0);
-  background: url('../img/icon/servicos.png') center no-repeat;
-  background-size: 65%;
+  transform: translate3d(0, 220px, 0);
+  background: url('../img/icon/servicos.png') no-repeat center;
+  background-size: 70%;
 }
 .menuz-open:checked ~ .menuz-item:nth-child(6) {
   transition-duration: 490ms;
-  transform: translate3d(0, 280px, 0);
+  transform: translate3d(0, 290px, 0);
   background: url('../img/icon/portfolio.png') no-repeat center;
-  background-size: 80%;
+  background-size: 70%;
 }
 .menuz-open:checked ~ .menuz-item:nth-child(7) {
   transition-duration: 590ms;
-  transform: translate3d(0, 350px, 0);
+  transform: translate3d(0, 360px, 0);
   background: url('../img/icon/quemsomos.png') no-repeat center;
   background-size: 70%;
 }
 .menuz-open:checked ~ .menuz-item:nth-child(8) {
   transition-duration: 690ms;
-  transform: translate3d(0, 420px, 0);
-  background: url('../img/icon/contato.png') center no-repeat;
+  transform: translate3d(0, 430px, 0);
+  background: url('../img/icon/contato.png') no-repeat center;
   background-size: 70%;
 }

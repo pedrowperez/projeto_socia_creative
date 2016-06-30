@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 body {
+<<<<<<< HEAD
 overflow: hidden;
 }
  @font-face {
@@ -1030,14 +1031,21 @@ border-image-slice: 1;
 body {
 	
 }overflow: hidden;
+=======
+overflow: hidden;
+>>>>>>> parent of 7db6de1... versão mobile 1.2.0
 }
  @font-face {
     font-family: 'Lato', sans-serif;
     src: url("https://fonts.googleapis.com/css?family=Lato:400,300,700");
 }
+<<<<<<< HEAD
 
 .flickity-viewport{display:none;}
 
+=======
+}
+>>>>>>> parent of 7db6de1... versão mobile 1.2.0
 .wrapper {
   min-height: 100vh;
   font-family: 'Lato', sans-serif;
@@ -2053,5 +2061,8 @@ border-image-slice: 1;
 
 .title-filo .bold {
   font-weight: 700;
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> parent of 7db6de1... versão mobile 1.2.0
 }
