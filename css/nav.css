@@ -1,0 +1,147 @@
+body {
+  background: #673ab7;
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+.menuz{
+  filter: url("#shadowed-goo");
+}
+
+.menuz-item, .menuz-open-button {
+  background: #00bcd4;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  margin-left: -40px;
+  position: absolute;
+  top: 20px;
+  color: white;
+  text-align: center;
+  line-height: 80px;
+  transform: translate3d(0, 0, 0);
+  transition: transform ease-out 200ms;
+}
+
+.menuz-open {
+  display: none;
+}
+
+.hamburger {
+  width: 25px;
+  height: 3px;
+  background: white;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -12.5px;
+  margin-top: -1.5px;
+  transition: transform 200ms;
+}
+
+.hamburger-1 {
+  transform: translate3d(0, -8px, 0);
+}
+
+.hamburger-2 {
+  transform: translate3d(0, 0, 0);
+}
+
+.hamburger-3 {
+  transform: translate3d(0, 8px, 0);
+}
+
+.menuz-open:checked + .menuz-open-button .hamburger-1 {
+  transform: translate3d(0, 0, 0) rotate(45deg);
+}
+.menuz-open:checked + .menuz-open-button .hamburger-2 {
+  transform: translate3d(0, 0, 0) scale(0.1, 1);
+}
+.menuz-open:checked + .menuz-open-button .hamburger-3 {
+  transform: translate3d(0, 0, 0) rotate(-45deg);
+}
+
+.menuz {
+  position: fixed;
+  left: 9%;
+  top: 2%;
+  margin-left: -80px;
+  padding-top: 20px;
+  padding-left: 80px;
+  width: 650px;
+  height: 150px;
+  box-sizing: border-box;
+  font-size: 20px;
+  text-align: left;
+  z-index: 999;
+}
+
+.menuz-item:hover {
+  background: white;
+  color: #00bcd4;
+}
+.menuz-item:nth-child(3) {
+  transition-duration: 180ms;
+}
+.menuz-item:nth-child(4) {
+  transition-duration: 180ms;
+}
+.menuz-item:nth-child(5) {
+  transition-duration: 180ms;
+}
+.menuz-item:nth-child(6) {
+  transition-duration: 180ms;
+}
+.menuz-item:nth-child(7) {
+  transition-duration: 180ms;
+}
+.menuz-open-button {
+  z-index: 2;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 400ms;
+  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+  cursor: pointer;
+}
+
+.menuz-open-button:hover {
+  transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+}
+
+.menuz-open:checked + .menuz-open-button {
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+}
+
+.menuz-open:checked ~ .menuz-item {
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.menuz-open:checked ~ .menuz-item:nth-child(3) {
+  transition-duration: 190ms;
+  transform: translate3d(0, 110px, 0);
+}
+.menuz-open:checked ~ .menuz-item:nth-child(4) {
+  transition-duration: 290ms;
+  transform: translate3d(0, 220px, 0);
+}
+.menuz-open:checked ~ .menuz-item:nth-child(5) {
+  transition-duration: 390ms;
+  transform: translate3d(0, 330px, 0);
+}
+.menuz-open:checked ~ .menuz-item:nth-child(6) {
+  transition-duration: 490ms;
+  transform: translate3d(0, 440px, 0);
+}
+.menuz-open:checked ~ .menuz-item:nth-child(7) {
+  transition-duration: 590ms;
+  transform: translate3d(0, 550px, 0);
+}
+.menuz-open:checked ~ .menuz-item:nth-child(8) {
+  transition-duration: 690ms;
+  transform: translate3d(0, 660px, 0);
+}
