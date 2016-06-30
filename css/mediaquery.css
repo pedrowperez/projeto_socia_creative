@@ -1,3 +1,13 @@
+@media screen and (max-width: 320px) {
+
+  .main-title:before {
+  width: 60px !important;
+  left: -2em !important;
+  top: -1.6em !important;
+  }
+      
+   }
+
 @media screen and (max-width: 768px) {
 }
  @font-face {
@@ -196,9 +206,9 @@ section:nth-child(7) {
 }
 
 
-.sobre{position: relative;width: 100%;height: 75%;display: inline-block;}
+.sobre{position: relative;width: 100%;height: 75%;top: 10%;display: inline-block;}
 .sobre h2 {
-    font-size: 29%;
+    font-size: 35%;
 }
 
 
@@ -231,8 +241,8 @@ section:nth-child(7) {
   border-image-slice: 1;
   }
 #btn_inf  {
-    width: 27%;
-    height: 65%;
+    width: 35%;
+    height: 70%;
     background-color: #333333;
     background-image: url('../img/icon/informacoes.png');
     background-position: center;
@@ -240,15 +250,15 @@ section:nth-child(7) {
     background-repeat: no-repeat;
     border-radius: 50%;
     float: left;
-    border: 9px solid #ff7a46;
+    border: 5px solid #ff7a46;
     /* transition: margin 0.2s ease-in 0s; */
     }
     #btn_inf:focus {
       box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
     }
 #btn_obj{
-    width: 28%;
-    height: 65%;
+    width: 35%;
+    height: 70%;
     background-color: #333333;
     background-image: url('../img/icon/objetivos.png');
     background-position: center;
@@ -256,12 +266,12 @@ section:nth-child(7) {
     background-repeat: no-repeat;
     border-radius: 50%;
     float: right;
-    border: 9px solid #2176B8;
+    border: 5px solid #2176B8;
     /* transition: margin 0.2s ease-in 0s; */
   }
 #btn_fi{
-    width: 27%;
-    height: 65%;
+    width: 35%;
+    height: 70%;
     background-color: #333333;
     background-image: url('../img/icon/filosofia.png');
     background-position: center;
@@ -269,7 +279,7 @@ section:nth-child(7) {
     background-repeat: no-repeat;
     border-radius: 50%;
     float: left;
-    border: 9px solid #38CE8E;
+    border: 5px solid #38CE8E;
     /* transition: margin 0.2s ease-in 0s; */
   }
 .description_info {
@@ -344,7 +354,34 @@ text-align: right;
   
 opacity: 0.8;
 }
-
+.main-description{
+  
+font-size: 0.5em;
+  
+width: 70%;
+  
+padding-top: 12px;
+  
+text-align: right;
+  
+left: 59%;
+}
+.main-title:before {
+    left: -2em;
+    top: -1.5em;
+    width: 30%;
+    height: 5em;
+}
+.main-title {
+  
+width: 70%;
+  
+font-size: 0.7em;
+  
+text-align: right;
+  
+left: 60%;
+}
 .title_obj {
   font-size: 0.9em;
   font-weight: 200;
@@ -696,11 +733,12 @@ opacity: 0.8;
 
 .filosofia-title {
   font-size: 100%;
-  top: 38%;
-  left: 19%;
+  top: 15%;
+  left: 30%;
   float: left;
-  padding: 0% 2% 2% 7%;
-  border-bottom: 10px solid #38CE8E;
+  text-align: right;
+  padding: 0% 2% 2% 5%;
+  border-bottom: 5px solid #38CE8E;
 }
 
 .filosofia-title .bold {
@@ -709,19 +747,20 @@ opacity: 0.8;
 
 .objetivos-title {
   font-size: 95%;
-  top: 33%;
-  right: 23.5%;
-  padding: 0% 4% 2% 0%;
-  border-bottom: 10px solid #2176b8;
+  top: 20%;
+  right: 31.5%;
+  padding: 0% 5% 2% 2%;
+  border-bottom: 5px solid #2176b8;
 }
 .title_telefone {
-  font-size: 0.5em;
+  
+font-size: 0.5em;
 }
 .objetivos-title .bold {
   font-weight: 700;
 }
 
-.informacoes-title {top: 20%;right: 6%;padding: 0% 17.1% 2% 8%;border-bottom: 10px solid #ff7a46;}
+.informacoes-title {top: 15%;right: 0%;padding: 0% 10.1% 2% 8%;border-bottom: 5px solid #ff7a46;}
 
 .informacoes-title .bold {
   font-weight: 700;
