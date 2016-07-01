@@ -1,12 +1,10 @@
-<<<<<<< HEAD
+
 body {
-<<<<<<< HEAD
 overflow: hidden;
 }
  @font-face {
     font-family: 'Lato', sans-serif;
     src: url("https://fonts.googleapis.com/css?family=Lato:400,300,700");
-}
 }
 .wrapper {
   min-height: 100vh;
@@ -14,6 +12,9 @@ overflow: hidden;
   font-weight: 300;
   /* color: #fff; */
   position: relative;
+}
+.flickity-enabled{
+display: none;
 }
 
 section {
@@ -1030,9 +1031,10 @@ border-image-slice: 1;
 =======
 body {
 	
-}overflow: hidden;
+}
+overflow: hidden;
 =======
-overflow: hidden;
+overflow: hidden;
 >>>>>>> parent of 7db6de1... versão mobile 1.2.0
 }
  @font-face {

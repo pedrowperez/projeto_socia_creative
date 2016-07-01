@@ -1,4 +1,9 @@
 @media screen and (min-width: 320px) {
+.flickity-enabled{
+display: block;
+}
+
+
 #info_obj {
     top: -10% !important;
 }
@@ -52,6 +57,10 @@ top: -10% !important;
 }
 
 @media screen and (max-width: 320px) and (orientation: landscape) {
+.flickity-enabled{
+display: block;
+}
+
 #info_obj {
     top: -10% !important;
 }
@@ -105,6 +114,10 @@ top: -10% !important;
 }
 
 @media screen and (min-width: 360px) and (orientation: landscape) {
+.flickity-enabled{
+display: block;
+}
+
 #info_obj {}
 .legenda-operacao {}
 .title_obj {
@@ -262,6 +275,10 @@ right: 29% !important;
 }
 
 @media screen and (min-width: 411px) and (orientation: landscape) { 
+.flickity-enabled{
+display: block;
+}
+
 
 #info_obj {}
 .legenda-operacao {}
@@ -345,9 +362,9 @@ right: 29% !important;
 }
 .intro { }
   .filosofia-title {
-left: 34% !important;
-font-size: 0.42em !important;
-padding: 0% 6% 2% 6% !important;
+left: 34% !important;
+font-size: 0.42em !important;
+padding: 0% 6% 2% 6% !important;
 }
 .description_info {}
   #info_info {}
@@ -384,6 +401,10 @@ padding: 0% 15.1% 2% 8% !important;
    }
   }
   @media screen and (min-width: 435px) and (orientation: landscape) {
+.flickity-enabled{
+display: block;
+}
+
 #info_obj {}
 .legenda-operacao {
     top: 50vh !important;
@@ -451,6 +472,11 @@ width: 95% !important;
 
 }
 @media screen and (max-width: 800px) and (orientation: landscape) {
+.flickity-enabled{
+display: block;
+}
+
+
 .menuz-item, .menuz-open-button {width: 9% !important;height: 120% !important;}
 .main-title {
     font-size: 0.9em !important;
@@ -509,6 +535,7 @@ section:nth-child(4) {
 }
 section:nth-child(5) {
   background: #333333;
+  position: relative;
 }
 section:nth-child(6) {
   background: #333333;
@@ -1399,6 +1426,7 @@ width: 100%;
 
 .carousel-cell:nth-child(2) {
   background: yellow;
+  /* height: 20%; */
 }
 
 .carousel {
@@ -1407,7 +1435,7 @@ width: 100%;
 
 .serv {
     /* height: 34em; */
-    display: flex;
+    display: none;
     position: relative;
 }
 
