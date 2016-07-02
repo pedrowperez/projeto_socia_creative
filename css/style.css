@@ -1238,7 +1238,7 @@ section:nth-child(7) {
 }
 
 
-.sobre{position: relative;width: 55%;height: 70%;display: inline-block;}
+.sobre{position: relative;width: 750px;height: 490px;display: inline-block;}
 .sobre h2 {display: initial;position: absolute;color: #cacaca;}
 
 
@@ -1733,10 +1733,10 @@ opacity: 0.8;
 
 .filosofia-title {
   font-size: 100%;
-  top: 37%;
-  left: 19%;
+  top: 23%;
+  left: 20%;
   float: left;
-  padding: 0% 2% 2% 7%;
+  padding: 0% 10% 2% 7%;
   border-bottom: 10px solid #38CE8E;
 }
 
@@ -1746,9 +1746,9 @@ opacity: 0.8;
 
 .objetivos-title {
   font-size: 100%;
-  top: 38%;
-  right: 18.5%;
-  padding: 0% 4% 2% 4%;
+  top: 20%;
+  right: 20.5%;
+  padding: 0% 10% 2% 16%;
   border-bottom: 10px solid #2176b8;
 }
 
@@ -1756,7 +1756,7 @@ opacity: 0.8;
   font-weight: 700;
 }
 
-.informacoes-title {font-size: 100%;top: 35%;right: 6%;padding: 0% 26.1% 2% 8%;border-bottom: 10px solid #ff7a46;}
+.informacoes-title {font-size: 100%;top: 23%;left: 20%;padding: 0% 8% 2% 7%;border-bottom: 10px solid #ff7a46;}
 
 .informacoes-title .bold {
   font-weight: 700;
