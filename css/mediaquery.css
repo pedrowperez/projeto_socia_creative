@@ -62,7 +62,8 @@ font-size: 0.34em !important;
     top: 49% !important;
 }
 .informacoes-title {
-    padding: 0% 3.1% 2% 8% !important;
+    padding: 0% 0% 2% 0% !important;
+    left: 32%;
 }
 #info_info {
 top: -10% !important;
@@ -820,7 +821,7 @@ section:nth-child(7) {
 }
 
 
-.sobre{position: relative;width: 480px;height: 685px;top: 5%;display: inline-block;}
+.sobre{position: relative;width: 480px;height: 100%;top: 8%;display: inline-block;}
 .sobre h2 {
     font-size: 35%;
 }
@@ -848,7 +849,7 @@ section:nth-child(7) {
 .filosofia {
   position: relative;
   width: 100%;
-  height: 33.3%;
+  height: 33%;
   -moz-border-image: -moz-linear-gradient(right, #333333 0%, #38CE8E 30%);
   -webkit-border-image: -webkit-linear-gradient(right, #333333 0%, #38CE8E 30%);
   border-image: linear-gradient(to right, #333333 0%, #38CE8E 30%);
@@ -856,7 +857,7 @@ section:nth-child(7) {
   }
 #btn_inf  {
     width: 35%;
-    height: 70%;
+    height: 60%;
     background-color: #333333;
     background-image: url('../img/icon/informacoes.png');
     background-position: center;
@@ -872,7 +873,7 @@ section:nth-child(7) {
     }
 #btn_obj{
     width: 35%;
-    height: 70%;
+    height: 60%;
     background-color: #333333;
     background-image: url('../img/icon/objetivos.png');
     background-position: center;
@@ -885,7 +886,7 @@ section:nth-child(7) {
   }
 #btn_fi{
     width: 35%;
-    height: 70%;
+    height: 60%;
     background-color: #333333;
     background-image: url('../img/icon/filosofia.png');
     background-position: center;
@@ -1374,7 +1375,7 @@ font-size: 0.5em;
   font-weight: 700;
 }
 
-.informacoes-title {top: 15%;right: 0%;padding: 0% 10.1% 2% 8%;border-bottom: 5px solid #ff7a46;}
+.informacoes-title {top: 15%;right: 0%;padding: 0% 6.1% 2% 8%;border-bottom: 5px solid #ff7a46;}
 
 .informacoes-title .bold {
   font-weight: 700;

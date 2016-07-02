@@ -1035,7 +1035,7 @@ body {
 overflow: hidden;
 =======
 overflow: hidden;
->>>>>>> parent of 7db6de1... versão mobile 1.2.0
+>>>>>>> parent of 7db6de1... versÃ£o mobile 1.2.0
 }
  @font-face {
     font-family: 'Lato', sans-serif;
@@ -1047,7 +1047,7 @@ overflow: hidden;
 
 =======
 }
->>>>>>> parent of 7db6de1... versão mobile 1.2.0
+>>>>>>> parent of 7db6de1... versÃ£o mobile 1.2.0
 .wrapper {
   min-height: 100vh;
   font-family: 'Lato', sans-serif;
@@ -1238,7 +1238,7 @@ section:nth-child(7) {
 }
 
 
-.sobre{position: relative;width: 750px;height: 490px;display: inline-block;}
+.sobre{position: relative;width: 900px;height: 600px;display: inline-block;}
 .sobre h2 {display: initial;position: absolute;color: #cacaca;}
 
 
@@ -1736,7 +1736,7 @@ opacity: 0.8;
   top: 23%;
   left: 20%;
   float: left;
-  padding: 0% 10% 2% 7%;
+  padding: 0% 15% 2% 12%;
   border-bottom: 10px solid #38CE8E;
 }
 
@@ -2066,5 +2066,5 @@ border-image-slice: 1;
 <<<<<<< HEAD
 >>>>>>> origin/master
 =======
->>>>>>> parent of 7db6de1... versão mobile 1.2.0
+>>>>>>> parent of 7db6de1... versÃ£o mobile 1.2.0
 }
