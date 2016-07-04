@@ -1028,26 +1028,14 @@ border-image-slice: 1;
 
 .menuz {
   display: none;
-=======
-body {
-	
 }
-overflow: hidden;
-=======
-overflow: hidden;
->>>>>>> parent of 7db6de1... versÃ£o mobile 1.2.0
-}
+
  @font-face {
     font-family: 'Lato', sans-serif;
     src: url("https://fonts.googleapis.com/css?family=Lato:400,300,700");
-}
-<<<<<<< HEAD
 
 .flickity-viewport{display:none;}
 
-=======
-}
->>>>>>> parent of 7db6de1... versÃ£o mobile 1.2.0
 .wrapper {
   min-height: 100vh;
   font-family: 'Lato', sans-serif;
@@ -1734,7 +1722,7 @@ opacity: 0.8;
 .filosofia-title {
   font-size: 100%;
   top: 23%;
-  left: 20%;
+  left: 21%;
   float: left;
   padding: 0% 15% 2% 12%;
   border-bottom: 10px solid #38CE8E;
@@ -1747,7 +1735,7 @@ opacity: 0.8;
 .objetivos-title {
   font-size: 100%;
   top: 20%;
-  right: 20.5%;
+  right: 21%;
   padding: 0% 10% 2% 16%;
   border-bottom: 10px solid #2176b8;
 }
@@ -1756,7 +1744,7 @@ opacity: 0.8;
   font-weight: 700;
 }
 
-.informacoes-title {font-size: 100%;top: 23%;left: 20%;padding: 0% 8% 2% 7%;border-bottom: 10px solid #ff7a46;}
+.informacoes-title {font-size: 100%;top: 23%;left: 21%;padding: 0% 8% 2% 7%;border-bottom: 10px solid #ff7a46;}
 
 .informacoes-title .bold {
   font-weight: 700;
@@ -2063,8 +2051,5 @@ border-image-slice: 1;
 
 .title-filo .bold {
   font-weight: 700;
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> parent of 7db6de1... versÃ£o mobile 1.2.0
 }
+
