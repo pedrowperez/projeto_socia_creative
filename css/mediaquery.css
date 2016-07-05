@@ -88,7 +88,99 @@
   .intro {}
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media screen and (min-width: 320px) and (max-height: 480px)  {
+ .titlecontact {
+    font-size: 0.6em !important;
+    margin: 23% 0% 0% 0%;
+  }
+  .descriptioncontact {
+    font-size: 0.47em !important;
+  }
+  .formulario {
+    height: 20% !important;
+  }
+  .informacoes_formulario {
+    margin: -275% 0% !important;
+  }
+  .form-group {
+    margin-bottom: 10px;
+    margin-top: -15px;
+  }
+  .formcontato {
+    margin-top: -5% !important;
+  }
+  .faleconosco {
+    display: none;
+  }
+  .title_location {}
+  .title_telefone {}
+  .title-email {}
+  .mediasocial {}
+  .copyright {}
+  .flickity-enabled {
+    display: block;
+  }
+  .btn_inf {}
+  .btn_obj {}
+  .btn_fi {}
+  #info_obj {
+    top: 5% !important;
+  }
+  .legenda-operacao {
+    font-size: 0.25em !important;
+  }
+  .title_obj {
+    font-size: 0.23em !important;
+  }
+  .student {
+    width: 90% !important;
+    margin: 8% auto !important;
+  }
+  #info_fimp {
+    top: 5% !important;
+  }
+  .title-filo {
+    font-size: 0.26em !important;
+  }
+  #world {
+    top: -20vh;
+    left: 30%;
+  }
+  .main-title:before {
+    width: 60px !important;
+    left: -2em !important;
+    top: -1.6em !important;
+  }
+  .menuz {
+    display: block;
+  }
+  .objetivos-title {
+    padding: 0% 6% 2% 13% !important;
+    right: 27% !important;
+    top: 10% !important;
+  }
+  .filosofia-title {
+    left: 26% !important;
+    font-size: 0.34em !important;
+    top: 10% !important;
+    padding: 0% 5% 2% 9% !important;
+  }
+  .description_info {
+    font-size: 0.35em !important;
+    top: 49% !important;
+  }
+  .informacoes-title {
+    padding: 0% 0% 2% 0% !important;
+    left: 23%;
+  }
+  #info_info {
+    top: 5% !important;
+  }
+  .intro {}
+}
+@media only screen and (min-device-width: 320px) 
+and (max-device-width: 568px) 
+and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .titlecontact {}
   .descriptioncontact {}
   .formulario {}
@@ -266,6 +358,64 @@
   }
 }
 
+@media screen and (min-width: 360px) and (max-height: 640px) {
+    .titlecontact {}
+  .descriptioncontact {}
+  .formulario {}
+  .informacoes_formulario {}
+  .form-group {}
+  .title_location {}
+  .title_telefone {}
+  .title-email {}
+  .mediasocial {}
+  .copyright {}
+  #info_obj {}
+  .formcontato {}
+  .legenda-operacao {}
+  .title_obj {
+    font-size: 0.28em !important;
+  }
+  .student {
+    width: 80% !important;
+    margin: 10% auto !important;
+  }
+  #info_fimp {}
+  .title-filo {
+    font-size: 0.3em !important;
+  }
+  #world {
+    top: 4vh;
+    left: 30%;
+  }
+  .intro {
+    top: -23vh !important;
+    left: 0%;
+  }
+  .informacoes-title {
+    padding: 0% 4.1% 2% 5.4% !important;
+    font-size: 0.42em !important;
+    top: 6% !important;
+    left: 29%;
+  }
+  .filosofia-title {
+    padding: 0% 3% 2% 5% !important;
+    left: 28% !important;
+    font-size: 0.42em !important;
+  }
+  .objetivos-title {
+    padding: 0% 6% 2% 9% !important;
+    right: 28% !important;
+    font-size: 0.42em !important;
+  }
+  .description_info {
+    font-size: 0.42em !important;
+    top: 50% !important;
+  }
+  #info_info {
+    top: 5% !important;
+  }
+  }
+
 @media screen and (min-width: 375px) {
   .titlecontact {}
   .descriptioncontact {}
@@ -294,6 +444,63 @@
   #info_info {}
 }
 
+@media screen and (min-width: 384px) {
+     .titlecontact {}
+  .descriptioncontact {}
+  .formulario {}
+  .informacoes_formulario {}
+  .form-group {}
+  .title_location {}
+  .title_telefone {}
+  .title-email {}
+  .mediasocial {}
+  .copyright {}
+  #info_obj {}
+  .formcontato {}
+  .legenda-operacao {}
+  .title_obj {
+    font-size: 0.28em !important;
+  }
+  .student {
+    width: 80% !important;
+    margin: 10% auto !important;
+  }
+  #info_fimp {}
+  .title-filo {
+    font-size: 0.3em !important;
+  }
+  #world {
+    top: 4vh;
+    left: 30%;
+  }
+  .intro {
+    top: -23vh !important;
+    left: 0%;
+  }
+  .informacoes-title {
+    padding: 0% 4.1% 2% 5.4% !important;
+    font-size: 0.46em !important;
+    top: 5% !important;
+    left: 31%;
+  }
+  .filosofia-title {
+    padding: 0% 2% 2% 4% !important;
+    left: 30% !important;
+    font-size: 0.46em !important;
+  }
+  .objetivos-title {
+    padding: 0% 6% 2% 8% !important;
+    right: 30% !important;
+    font-size: 0.46em !important;
+  }
+  .description_info {
+    font-size: 0.42em !important;
+    top: 50% !important;
+  }
+  #info_info {
+    top: 5% !important;
+  }
+}
 @media screen and (min-width: 411px) {
   .titlecontact {}
   .descriptioncontact {}
@@ -413,6 +620,64 @@
   .description_info {}
   #info_info {}
 }
+@media screen and (min-width: 412px) {
+
+   .titlecontact {}
+  .descriptioncontact {}
+  .formulario {}
+  .informacoes_formulario {}
+  .form-group {}
+  .title_location {}
+  .title_telefone {}
+  .title-email {}
+  .mediasocial {}
+  .copyright {}
+  .formcontato {}
+  #info_obj {}
+  .legenda-operacao {}
+  .title_obj {
+    font-size: 0.33em !important;
+  }
+  .student {
+    width: 70% !important;
+    margin: 5% auto !important;
+  }
+  #info_fimp {}
+  .title-filo {
+    font-size: 0.38em !important;
+    top: 1vh !important;
+  }
+  #world {}
+  .intro {}
+  #btn_inf {
+    width: 16vh !important;
+  }
+  #btn_fi {
+    width: 16vh !important;
+  }
+  .informacoes-title {
+    font-size: 0.49em !important;
+    padding: 0% 0.1% 2% 0% !important;
+    top: 16% !important;
+  }
+  .filosofia-title {
+    padding: 0% 1% 2% 3% !important;
+    left: 33% !important;
+    font-size: 0.49em !important;
+    top: 11% !important;
+  }
+  #btn_obj {
+    width: 16vh !important;
+  }
+  .objetivos-title {
+    font-size: 0.49em !important;
+    padding: 0% 7% 2% 6% !important;
+    right: 33% !important;
+  }
+  .description_info {}
+  #info_info {}
+}
+
 
 @media screen and (min-width: 414px) {
   .titlecontact {}
@@ -852,6 +1117,7 @@ section:nth-child(7) {
   -webkit-border-image: -webkit-linear-gradient(right, #333333 0%, #ff7a46 30%);
   border-image: linear-gradient(to right, #333333 0%, #ff7a46 30%);
   border-image-slice: 1;
+  z-index: 1;
 }
 
 .objetivos {
@@ -863,6 +1129,7 @@ section:nth-child(7) {
   -webkit-border-image: -webkit-linear-gradient(left, #333333 0%, #2176B8 30%);
   border-image: linear-gradient(to left, #333333 0%, #2176B8 30%);
   border-image-slice: 1;
+  z-index: 1;
 }
 
 .filosofia {
@@ -873,6 +1140,7 @@ section:nth-child(7) {
   -webkit-border-image: -webkit-linear-gradient(right, #333333 0%, #38CE8E 30%);
   border-image: linear-gradient(to right, #333333 0%, #38CE8E 30%);
   border-image-slice: 1;
+  z-index: 1;
 }
 
 #btn_inf {
@@ -887,6 +1155,7 @@ section:nth-child(7) {
   float: left;
   border: 5px solid #ff7a46;
   /* transition: margin 0.2s ease-in 0s; */
+  z-index: 1;
 }
 
 #btn_inf:focus {
@@ -905,6 +1174,7 @@ section:nth-child(7) {
   float: right;
   border: 5px solid #2176B8;
   /* transition: margin 0.2s ease-in 0s; */
+  z-index: 1;
 }
 
 #btn_fi {
@@ -919,6 +1189,7 @@ section:nth-child(7) {
   float: left;
   border: 5px solid #38CE8E;
   /* transition: margin 0.2s ease-in 0s; */
+  z-index: 1;
 }
 
 .description_info {
@@ -1375,6 +1646,7 @@ section:nth-child(7) {
   text-align: right;
   padding: 0% 2% 2% 5%;
   border-bottom: 5px solid #38CE8E;
+  z-index: -1;
 }
 
 .filosofia-title .bold {
@@ -1387,6 +1659,7 @@ section:nth-child(7) {
   right: 29.5%;
   padding: 0% 5% 2% 2%;
   border-bottom: 5px solid #2176b8;
+  z-index: -1;
 }
 
 .title_telefone {
@@ -1402,6 +1675,7 @@ section:nth-child(7) {
   right: 0%;
   padding: 0% 6.1% 2% 8%;
   border-bottom: 5px solid #ff7a46;
+  z-index: -1;
 }
 
 .informacoes-title .bold {
