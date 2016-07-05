@@ -22,6 +22,17 @@
   .faleconosco {
     display: none;
   }
+  .parceiros::after {
+  content: "";
+  display: inline-block;
+  background-image: url('../img/logo.png');
+  width: 9em;
+  height: 9em;
+  background-size: 90%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+}
   .conosco{}
   .info_formulario{}
   .title_location {}
