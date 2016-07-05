@@ -13,7 +13,7 @@ http://flickity.metafizzy.co
 .flickity-viewport {
   overflow: hidden;
   position: relative;
-  height: 9em !important;
+  height: 10em !important;
   width: 100% !important;
 }
 
