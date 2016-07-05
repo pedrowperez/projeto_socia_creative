@@ -20,11 +20,11 @@
 	<link rel="stylesheet" href="css/component.css">
   <link rel="stylesheet" href="css/flickity.css" media="screen">
   <link rel="stylesheet" href="css/world-mission.css" media="screen">
-  <link rel="stylesheet" href="css/mediaquery.css">
+  <link rel="stylesheet" media="(max-width: 800px)" href="css/mediaquery.css" />
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<script src="js/sectionselectconfiguration.js"> </script>
-  
+	<meta name="viewport" content="width=device-width">  
   <script src="js/flickity.pkgd.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
@@ -290,11 +290,11 @@
           </div>
 	      <div class="objetivos">
           <div id="btn_obj"> </div>
-            <h2 class="objetivos-title"> COMO FAZEMOS ISSO <span class="bold"> ACONTECER </span>?</h2>
+            <h2 class="objetivos-title"> COMO  <span class="bold"> ACONTECE</span>?</h2>
           </div>
 	      <div class="filosofia">
           <div id="btn_fi" > </div>
-            <h2 class="filosofia-title"> FILOSOFIA <span class="bold"> CONNECTING PEOPLE </span></h2>
+            <h2 class="filosofia-title"> CONNECTING <span class="bold">  PEOPLE </span></h2>
           </div>
 	  </div>
 	</section>
@@ -319,10 +319,11 @@ para todos os tipos de dispositivo </h4></div>
           <h4 class="serv-description"  style="background-image: url('../projeto_socia_creative/img/web-storage.png');"> Armazenagem em nuvem e servidores
 para seu tipo de aplicação</h4></div>
          </div>
-
-      
-
-
+		 
+		<div class="carousel js-flickity" data-flickity-options='{ "cellAlign": "left", "contain": true , "prevNextButtons": false, "pageDots": false }'>
+		  <div class="carousel-cell"></div>
+		  <div class="carousel-cell"></div>
+		</div>
 
       <div class="row code">
   <div class="svg col-lg-12">
@@ -800,6 +801,14 @@ para seu tipo de aplicação</h4></div>
 
     <section class="section section6" id="section6">
       <div class="contato">
+
+
+    <div class="carousel js-flickity" data-flickity-options='{ "cellAlign": "left", "contain": true , "prevNextButtons": false, "pageDots": false }'>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+    </div>
+
+    <div class="faleconosco">
       <h1 class="titlecontact thin"> ENTRE EM <span class="bold"> CONTATO </span> </h1>
         <h3 class="descriptioncontact bold"> SOLICITE <span class="thin"> UM ORÇAMENTO </span> </h3>
         <div class="formulario"> 
@@ -825,6 +834,7 @@ para seu tipo de aplicação</h4></div>
             <a href="" class="mediasocial linkedin"> </a>
             <hr class="divisoriainfo">
             <h3 class="copyright"> 2016 ALL RIGHTS RESERVED </h3>
+         </div>
          </div>
         </div>
     </section>

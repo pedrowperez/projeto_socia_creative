@@ -5,8 +5,8 @@ $(document).ready(function()
 		{
 			if (!move)
 			{	
-				$("#btn_obj").animate({"margin-right": '-15%',"opacity": '0'}, 400);
-				$("#btn_fi").animate({"margin-left": '-15%', "opacity": '0'}, 400)
+				$("#btn_obj").animate({"margin-right": '-5%',"opacity": '0'}, 400);
+				$("#btn_fi").animate({"margin-left": '-5%', "opacity": '0'}, 400)
 				$(".sobre h2").animate({"opacity": '0'}, 100);
 				$("#info_info").slideDown(600);
 				move = true
@@ -25,8 +25,8 @@ $(document).ready(function()
 		{
 			if (!move)
 			{	
-				$("#btn_inf").animate({"margin-left": '-15%', "opacity": '0'}, 400);
-				$("#btn_fi").animate({"margin-left": '-15%', "opacity": '0'}, 400);
+				$("#btn_inf").animate({"margin-left": '-5%', "opacity": '0'}, 400);
+				$("#btn_fi").animate({"margin-left": '-5%', "opacity": '0'}, 400);
 				$(".sobre h2").animate({"opacity": '0'}, 100);
 				$("#info_obj").show("slide", { direction: "left" }, 1000);
 				move = true
@@ -45,8 +45,8 @@ $(document).ready(function()
 		{
 			if (!move)
 			{	
-				$("#btn_inf").animate({"margin-left": '-15%', "opacity": '0'}, 400);
-				$("#btn_obj").animate({"margin-right": '-15%', "opacity": '0'}, 400);
+				$("#btn_inf").animate({"margin-left": '-5%', "opacity": '0'}, 400);
+				$("#btn_obj").animate({"margin-right": '-5%', "opacity": '0'}, 400);
 				$(".sobre h2").animate({"opacity": '0'}, 100);
 				$("#info_fimp").slideDown(600);
 				move = true
