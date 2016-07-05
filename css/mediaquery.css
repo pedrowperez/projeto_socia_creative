@@ -1693,7 +1693,7 @@ section:nth-child(7) {
 
 .title_location:before {
   display: inline-block;
-  width: 8%;
+  width: 1em;
   top: 17px;
   background-image: url('../img/contato/location.png');
   background-position: center;
@@ -1706,21 +1706,21 @@ section:nth-child(7) {
 
 .title_email {
   font-weight: 200;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 46px;
   font-size: 0.4em;
 }
 
 .title_email:before {
   display: inline-block;
-  width: 36px;
+  width: 1.5em;
   background-image: url('../img/contato/email.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   content: "";
   position: relative;
-  top: -10px;
+  top: 10px;
 }
 
 .title_location .bold {
@@ -1737,7 +1737,7 @@ section:nth-child(7) {
 
 .title_telefone:before {
   display: inline-block;
-  width: 18px;
+  width: 1em;
   background-image: url('../img/contato/telefone.png');
   background-position: center;
   background-repeat: no-repeat;
