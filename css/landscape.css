@@ -1,0 +1,137 @@
+@media screen and (min-width: 480px) and (max-height: 320px) and (orientation: landscape) {
+  .titlecontact {
+    font-size: 0.6em !important;
+    margin: 23% 0% 0% 0%;
+  }
+  .menuz-item, .menuz-open-button {
+  width: 15vh !important;
+  }
+  .descriptioncontact {
+    font-size: 0.47em !important;
+  }
+  .formulario {
+    height: 20% !important;
+  }
+  .informacoes_formulario {
+    margin: -275% 0% !important;
+  }
+  .form-group {
+    margin-bottom: 10px;
+    margin-top: -15px;
+  }
+  .formcontato {
+    margin-top: -5% !important;
+  }
+  .faleconosco {
+    display: none;
+  }
+  .menuz-open:checked ~ .menuz-item:nth-child(3) {
+  transition-duration: 190ms;
+  transform: translate3d(60px, 0, 0) !important;
+  background: url('../img/icon/home.png') center no-repeat;
+  background-size: 70%;
+}
+.menuz-open:checked ~ .menuz-item:nth-child(4) {
+  transition-duration: 290ms;
+  transform: translate3d(120px, 0px, 0) !important;
+  background: url('../img/icon/sobre.png') no-repeat center;
+  background-size: 65%;
+}
+.menuz-open:checked ~ .menuz-item:nth-child(5) {
+  transition-duration: 390ms;
+  transform: translate3d(180px, 0, 0) !important;
+  background: url('../img/icon/servicos.png') no-repeat center;
+  background-size: 70%;
+}
+.menuz-open:checked ~ .menuz-item:nth-child(6) {
+  transition-duration: 490ms;
+  transform: translate3d(240px, 0, 0) !important;
+  background: url('../img/icon/portfolio.png') no-repeat center;
+  background-size: 70%;
+}
+.menuz-open:checked ~ .menuz-item:nth-child(7) {
+  transition-duration: 590ms;
+  transform: translate3d(300px, 0px, 0) !important;
+  background: url('../img/icon/quemsomos.png') no-repeat center;
+  background-size: 70%;
+}
+.menuz-open:checked ~ .menuz-item:nth-child(8) {
+  transition-duration: 690ms;
+  transform: translate3d(360px, 0px, 0) !important;
+  background: url('../img/icon/contato.png') no-repeat center;
+  background-size: 70%;
+}
+  .title_location {}
+  .title_telefone {}
+  .title-email {}
+  .mediasocial {}
+  .copyright {}
+  .flickity-enabled {
+    display: block;
+  }
+  #btn_inf {
+    width: 21vh !important;
+}
+  #btn_obj {
+    width: 21vh !important;
+}
+  #btn_fi {
+    width: 21vh !important;
+}
+  #info_obj {
+    top: 5% !important;
+  }
+  .legenda-operacao {
+    font-size: 0.25em !important;
+  }
+  .title_obj {
+    font-size: 0.23em !important;
+  }
+  .student {
+    width: 90% !important;
+    margin: 8% auto !important;
+  }
+  #info_fimp {
+    top: 5% !important;
+  }
+  .title-filo {
+    font-size: 0.26em !important;
+  }
+  #world {
+    top: -20vh;
+    left: 30%;
+  }
+  .main-title:before {
+    width: 60px !important;
+    left: -2em !important;
+    top: -1.6em !important;
+  }
+  .menuz {
+    display: block;
+  }
+  .objetivos-title {
+    padding: 0% 6% 2% 32% !important;
+    right: 16% !important;
+    top: -10% !important;
+  }
+  .filosofia-title {
+    left: 15% !important;
+    font-size: 0.49em !important;
+    top: -10% !important;
+    padding: 0% 19% 2% 14% !important;
+  }
+  .description_info {
+    font-size: 0.35em !important;
+    top: 49% !important;
+  }
+  .informacoes-title {
+    padding: 0% 0% 2% 0% !important;
+    left: 23%;
+  }
+  #info_info {
+    top: 5% !important;
+  }
+  .intro {}
+}
+
+
