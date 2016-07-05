@@ -889,14 +889,14 @@ width: 60%;
   background-position: center;
 }
 .carousel-cell {
-  background: red;
+  background: transparent;
   width: 100%;
   height: 100%;
-      cursor: url('../img/swipe-to-right.cur');
+  cursor: url('../img/swipe-to-right.cur');
 }
 
 .carousel-cell:nth-child(2) {
-  background: yellow;
+  background: transparent;
 }
 
 .carousel {
