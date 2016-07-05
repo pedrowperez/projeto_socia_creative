@@ -1921,7 +1921,7 @@ section:nth-child(7) {
 .serv div:nth-child(4) {}
 
 .serv-title {
-  font-size: 20%;
+  font-size: 60%;
 }
 
 .serv-title .bold {
@@ -1935,7 +1935,7 @@ section:nth-child(7) {
 
 .serv-description::before {
   content: "";
-  height: 15.5em;
+  height: 13em;
   display: inline-block;
 }
 
@@ -1950,7 +1950,7 @@ section:nth-child(7) {
   background-size: 85%;
   background-repeat: no-repeat;
   background-position: center 0.55em;
-  font-size: 15%;
+  font-size: 35%;
 }
 
 .col-sm-3 h4:nth-child(3) {
