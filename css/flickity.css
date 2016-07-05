@@ -14,7 +14,7 @@ http://flickity.metafizzy.co
   overflow: hidden;
   position: relative;
   height: 9em !important;
-  width: 6.1em !important;
+  width: 100% !important;
 }
 
 .flickity-slider {
