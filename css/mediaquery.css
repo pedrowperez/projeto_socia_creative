@@ -114,37 +114,37 @@
   }
   .menuz-open:checked ~ .menuz-item:nth-child(3) {
   transition-duration: 190ms;
-  transform: translate3d(60px, 0, 0) !important;
+  transform: translate3d(0, 55px, 0) !important;
   background: url('../img/icon/home.png') center no-repeat;
   background-size: 70%;
 }
 .menuz-open:checked ~ .menuz-item:nth-child(4) {
   transition-duration: 290ms;
-  transform: translate3d(120px, 0px, 0) !important;
+  transform: translate3d(0, 110px, 0) !important;
   background: url('../img/icon/sobre.png') no-repeat center;
   background-size: 65%;
 }
 .menuz-open:checked ~ .menuz-item:nth-child(5) {
   transition-duration: 390ms;
-  transform: translate3d(0, 180px, 0) !important;
+  transform: translate3d(0, 160px, 0) !important;
   background: url('../img/icon/servicos.png') no-repeat center;
   background-size: 70%;
 }
 .menuz-open:checked ~ .menuz-item:nth-child(6) {
   transition-duration: 490ms;
-  transform: translate3d(0, 240px, 0) !important;
+  transform: translate3d(0, 205px, 0) !important;
   background: url('../img/icon/portfolio.png') no-repeat center;
   background-size: 70%;
 }
 .menuz-open:checked ~ .menuz-item:nth-child(7) {
   transition-duration: 590ms;
-  transform: translate3d(0, 300px, 0) !important;
+  transform: translate3d(0, 250px, 0) !important;
   background: url('../img/icon/quemsomos.png') no-repeat center;
   background-size: 70%;
 }
 .menuz-open:checked ~ .menuz-item:nth-child(8) {
   transition-duration: 690ms;
-  transform: translate3d(0, 360px, 0) !important;
+  transform: translate3d(0, 300px, 0) !important;
   background: url('../img/icon/contato.png') no-repeat center;
   background-size: 70%;
 }
