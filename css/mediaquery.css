@@ -329,8 +329,9 @@
     width: 16vh !important;
   }
   .informacoes-title {
-    font-size: 0.37em !important;
-    padding: 0% 18.1% 2% 8% !important;
+    font-size: 0.41em !important;
+    padding: 0% 9.1% 2% 8% !important;
+    top: 7% !important;
   }
   .filosofia-title {
     padding: 0% 12% 2% 10% !important;
@@ -342,8 +343,8 @@
   }
   .objetivos-title {
     font-size: 0.41em !important;
-    padding: 0% 9% 2% 16% !important;
-    right: 29% !important;
+    padding: 0% 9% 2% 15% !important;
+    right: 30% !important;
   }
   .description_info {}
   #info_info {}
@@ -435,8 +436,10 @@
   #info_fimp {}
   .title-filo {}
   .informacoes-title {
-    padding: 0% 14% 2% 6% !important;
-    font-size: 0.4em !important;
+    padding: 0% 6% 2% 6% !important;
+    font-size: 0.44em !important;
+    right: 1% !important;
+    top: 18% !important;
   }
   .objetivos-title {
     right: 35% !important;
@@ -475,21 +478,26 @@
     width: 90% !important;
   }
   #info_fimp {
-    top: -8% !important;
+    top: 3% !important;
   }
   .title-filo {}
   .objetivos-title {
-    right: 35% !important;
+    font-size: 0.53em !important;
+    right: 34% !important;
+    padding: 0% 2% 2% 8% !important;
   }
   .informacoes-title {
     font-size: 0.53em !important;
-    padding: 0% 1.1% 2% 8% !important;
-    right: 1% !important;
-    top: 5% !important;
+    padding: 0% 1.1% 2% 4% !important;
+    right: 0% !important;
+    top: 15% !important;
   }
   .intro {}
   .filosofia-title {
-    left: 34% !important;
+    left: 32% !important;
+    font-size: 0.53em !important;
+    padding: 0% 0% 2% 4% !important;
+    top: 13% !important;
   }
   .description_info {}
   #info_info {}
